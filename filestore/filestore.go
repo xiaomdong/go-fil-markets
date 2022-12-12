@@ -70,6 +70,25 @@ func (fs fileStore) CreateTemp() (File, error) {
 	return &fd{File: f, basepath: fs.base, filename: filename}, nil
 }
 
+func (fs fileStore) CreateTemp2(srcFile string) (File, error) {
+	f, err := ioutil.TempFile(fs.base, "fstmp")
+	if err != nil {
+		return nil, err
+	}
+	tmpfile := f.Name()
+	f.Close()
+	os.Remove(tmpfile)
+	err = os.Symlink(srcFile,tmpfile)
+	if err != nil {
+		return nil, err
+	}
+    f,err = os.Open(tmpfile)
+	if err != nil {
+		return nil, err
+	}
+	filename := filepath.Base(f.Name())
+	return &fd{File: f, basepath: fs.base, filename: filename}, nil
+}
 func checkIsDir(baseDir string) (string, error) {
 	base := filepath.Clean(string(baseDir))
 	info, err := os.Stat(base)

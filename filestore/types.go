@@ -35,4 +35,5 @@ type FileStore interface {
 	Delete(p Path) error
 
 	CreateTemp() (File, error)
+	CreateTemp2(srcFile string) (File, error)
 }
