@@ -411,7 +411,7 @@ func (p *Provider) ImportDataForDeal(ctx context.Context, propCid cid.Cid, data 
 // ImportDataForDeal2 manually imports data for an offline storage deal
 // It will verify that the data in the passed io.Reader matches the expected piece
 // cid for the given deal or it will error
-func (p *Provider) ImportDataForDeal2(ctx context.Context, propCid cid.Cid, data io.Reader, srcFile string) error {
+func (p *Provider) ImportDataForDeal2(ctx context.Context, propCid cid.Cid, srcFile string) error {
 	// TODO: be able to check if we have enough disk space
 	var d storagemarket.MinerDeal
 	if err := p.deals.Get(propCid).Get(&d); err != nil {
