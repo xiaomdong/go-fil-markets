@@ -14,11 +14,11 @@ import (
 
 	"github.com/filecoin-project/go-address"
 
-	discoveryimpl "github.com/filecoin-project/go-fil-markets/discovery/impl"
-	"github.com/filecoin-project/go-fil-markets/discovery/migrations"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	retrievalmigrations "github.com/filecoin-project/go-fil-markets/retrievalmarket/migrations"
-	"github.com/filecoin-project/go-fil-markets/shared_testutil"
+	discoveryimpl "github.com/xiaomdong/go-fil-markets/discovery/impl"
+	"github.com/xiaomdong/go-fil-markets/discovery/migrations"
+	"github.com/xiaomdong/go-fil-markets/retrievalmarket"
+	retrievalmigrations "github.com/xiaomdong/go-fil-markets/retrievalmarket/migrations"
+	"github.com/xiaomdong/go-fil-markets/shared_testutil"
 )
 
 func TestLocal_AddPeer(t *testing.T) {

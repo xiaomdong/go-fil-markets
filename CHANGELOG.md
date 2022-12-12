@@ -2,9 +2,9 @@
 
 # go-fil-markets v1.24.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update go libp2p v0.21 (#744) ([filecoin-project/go-fil-markets#744](https://github.com/filecoin-project/go-fil-markets/pull/744))
-  - feat(retrievalmarket): use ready manager (#739) ([filecoin-project/go-fil-markets#739](https://github.com/filecoin-project/go-fil-markets/pull/739))
+- github.com/xiaomdong/go-fil-markets:
+  - Update go libp2p v0.21 (#744) ([filecoin-project/go-fil-markets#744](https://github.com/xiaomdong/go-fil-markets/pull/744))
+  - feat(retrievalmarket): use ready manager (#739) ([filecoin-project/go-fil-markets#739](https://github.com/xiaomdong/go-fil-markets/pull/739))
 
 Contributors
 
@@ -15,8 +15,8 @@ Contributors
 
 # go-fil-markets v1.23.2
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: dagstore_wrapper: DestroyShardSync (#736) ([filecoin-project/go-fil-markets#736](https://github.com/filecoin-project/go-fil-markets/pull/736))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: dagstore_wrapper: DestroyShardSync (#736) ([filecoin-project/go-fil-markets#736](https://github.com/xiaomdong/go-fil-markets/pull/736))
 
 Contributors
 
@@ -26,8 +26,8 @@ Contributors
 
 # go-fil-markets v1.23.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - Upgrade to `go-car` `2.4.1` (#733) ([filecoin-project/go-fil-markets#733](https://github.com/filecoin-project/go-fil-markets/pull/733))
+- github.com/xiaomdong/go-fil-markets:
+  - Upgrade to `go-car` `2.4.1` (#733) ([filecoin-project/go-fil-markets#733](https://github.com/xiaomdong/go-fil-markets/pull/733))
 
 Contributors
 
@@ -37,9 +37,9 @@ Contributors
 
 # go-fil-markets v1.23.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update deps (#731) ([filecoin-project/go-fil-markets#731](https://github.com/filecoin-project/go-fil-markets/pull/731))
-  - Upgrade to go-ipfs-blockstore `v1.2.0` (#728) ([filecoin-project/go-fil-markets#728](https://github.com/filecoin-project/go-fil-markets/pull/728))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update deps (#731) ([filecoin-project/go-fil-markets#731](https://github.com/xiaomdong/go-fil-markets/pull/731))
+  - Upgrade to go-ipfs-blockstore `v1.2.0` (#728) ([filecoin-project/go-fil-markets#728](https://github.com/xiaomdong/go-fil-markets/pull/728))
 
 Contributors
 
@@ -50,8 +50,8 @@ Contributors
 
 # go-fil-markets v1.22.2
 
-- github.com/filecoin-project/go-fil-markets:
-  - Upgrade to go-ipfs-blockstore `v1.2.0` (#728) ([filecoin-project/go-fil-markets#728](https://github.com/filecoin-project/go-fil-markets/pull/728))
+- github.com/xiaomdong/go-fil-markets:
+  - Upgrade to go-ipfs-blockstore `v1.2.0` (#728) ([filecoin-project/go-fil-markets#728](https://github.com/xiaomdong/go-fil-markets/pull/728))
 
 Contributors
 
@@ -61,8 +61,8 @@ Contributors
 
 # go-fil-markets v1.22.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - Upgrade index-provider and related dependencies (#722) ([filecoin-project/go-fil-markets#722](https://github.com/filecoin-project/go-fil-markets/pull/722))
+- github.com/xiaomdong/go-fil-markets:
+  - Upgrade index-provider and related dependencies (#722) ([filecoin-project/go-fil-markets#722](https://github.com/xiaomdong/go-fil-markets/pull/722))
 
 Contributors
 
@@ -72,8 +72,8 @@ Contributors
 
 # go-fil-markets v1.22.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - migrate provider deal proposal label to the new format (#721) ([filecoin-project/go-fil-markets#721](https://github.com/filecoin-project/go-fil-markets/pull/721))
+- github.com/xiaomdong/go-fil-markets:
+  - migrate provider deal proposal label to the new format (#721) ([filecoin-project/go-fil-markets#721](https://github.com/xiaomdong/go-fil-markets/pull/721))
 
 Contributors
 
@@ -83,12 +83,12 @@ Contributors
 
 # go-fil-markets v1.21.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - Use new go-state-types state accessors (#711) (#719) ([filecoin-project/go-fil-markets#719](https://github.com/filecoin-project/go-fil-markets/pull/719))
-  - chore: update go-car dependency (#709) ([filecoin-project/go-fil-markets#709](https://github.com/filecoin-project/go-fil-markets/pull/709))
-  - fix:close ask/dealstatus stream (#710) ([filecoin-project/go-fil-markets#710](https://github.com/filecoin-project/go-fil-markets/pull/710))
-  - fix: fire storage deal provider ready event after startup completes (#708) ([filecoin-project/go-fil-markets#708](https://github.com/filecoin-project/go-fil-markets/pull/708))
-  - release: v1.20.3 (#703) ([filecoin-project/go-fil-markets#703](https://github.com/filecoin-project/go-fil-markets/pull/703))
+- github.com/xiaomdong/go-fil-markets:
+  - Use new go-state-types state accessors (#711) (#719) ([filecoin-project/go-fil-markets#719](https://github.com/xiaomdong/go-fil-markets/pull/719))
+  - chore: update go-car dependency (#709) ([filecoin-project/go-fil-markets#709](https://github.com/xiaomdong/go-fil-markets/pull/709))
+  - fix:close ask/dealstatus stream (#710) ([filecoin-project/go-fil-markets#710](https://github.com/xiaomdong/go-fil-markets/pull/710))
+  - fix: fire storage deal provider ready event after startup completes (#708) ([filecoin-project/go-fil-markets#708](https://github.com/xiaomdong/go-fil-markets/pull/708))
+  - release: v1.20.3 (#703) ([filecoin-project/go-fil-markets#703](https://github.com/xiaomdong/go-fil-markets/pull/703))
 
 Contributors
 
@@ -99,8 +99,8 @@ Contributors
 | Mike | 1 | +2/-0 | 1 |
 
 # go-fil-markets v1.20.3
-- github.com/filecoin-project/go-fil-markets:
-  - validate deal proposal (#702) ([filecoin-project/go-fil-markets#702](https://github.com/filecoin-project/go-fil-markets/pull/702))
+- github.com/xiaomdong/go-fil-markets:
+  - validate deal proposal (#702) ([filecoin-project/go-fil-markets#702](https://github.com/xiaomdong/go-fil-markets/pull/702))
 
 Contributors
 
@@ -109,9 +109,9 @@ Contributors
 | Anton Evangelatov | 1 | +8/-0 | 1 |
 
 # go-fil-markets v1.20.1
-- github.com/filecoin-project/go-fil-markets:
-  - Upgrade index-provider with the latest metadata format (#688) ([filecoin-project/go-fil-markets#688](https://github.com/filecoin-project/go-fil-markets/pull/688))
-  - release: v1.20.0 ([filecoin-project/go-fil-markets#686](https://github.com/filecoin-project/go-fil-markets/pull/686))
+- github.com/xiaomdong/go-fil-markets:
+  - Upgrade index-provider with the latest metadata format (#688) ([filecoin-project/go-fil-markets#688](https://github.com/xiaomdong/go-fil-markets/pull/688))
+  - release: v1.20.0 ([filecoin-project/go-fil-markets#686](https://github.com/xiaomdong/go-fil-markets/pull/686))
 
 Contributors
 
@@ -120,8 +120,8 @@ Contributors
 | Masih H. Derkani | 1 | +34/-28 | 4 |
 
 # go-fil-markets v1.20.0
-- github.com/filecoin-project/go-fil-markets:
-  - Index publishing work (#673) ([filecoin-project/go-fil-markets#673](https://github.com/filecoin-project/go-fil-markets/pull/673))
+- github.com/xiaomdong/go-fil-markets:
+  - Index publishing work (#673) ([filecoin-project/go-fil-markets#673](https://github.com/xiaomdong/go-fil-markets/pull/673))
   - Merge branch 'release/v1.19.1'
 
 Contributors
@@ -132,9 +132,9 @@ Contributors
 
 # go-fil-markets v1.19.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat(clientstates): handle payment chanel ready to go (#677) ([filecoin-project/go-fil-markets#677](https://github.com/filecoin-project/go-fil-markets/pull/677))
-  - release: v1.19.0 ([filecoin-project/go-fil-markets#672](https://github.com/filecoin-project/go-fil-markets/pull/672))
+- github.com/xiaomdong/go-fil-markets:
+  - feat(clientstates): handle payment chanel ready to go (#677) ([filecoin-project/go-fil-markets#677](https://github.com/xiaomdong/go-fil-markets/pull/677))
+  - release: v1.19.0 ([filecoin-project/go-fil-markets#672](https://github.com/xiaomdong/go-fil-markets/pull/672))
 
 Contributors
 
@@ -144,8 +144,8 @@ Contributors
 
 # go-fil-markets v1.19.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update to go-data-transfer v1.14.0 / go-libp2p v0.18.0-rc1 (#669) ([filecoin-project/go-fil-markets#669](https://github.com/filecoin-project/go-fil-markets/pull/669))
+- github.com/xiaomdong/go-fil-markets:
+  - Update to go-data-transfer v1.14.0 / go-libp2p v0.18.0-rc1 (#669) ([filecoin-project/go-fil-markets#669](https://github.com/xiaomdong/go-fil-markets/pull/669))
 
 Contributors
 
@@ -157,14 +157,14 @@ Contributors
 # go-fil-markets v1.18.0
 
 Reverts the following commits:
-- github.com/filecoin-project/go-fil-markets:
-  - log advertisement cid for announcement and update deps (#667) ([filecoin-project/go-fil-markets#667](https://github.com/filecoin-project/go-fil-markets/pull/667))
-  - release: v1.15.0 ([filecoin-project/go-fil-markets#661](https://github.com/filecoin-project/go-fil-markets/pull/661))
-  - retrieve by any CID (not just root CID) and reference provider integration (#629) ([filecoin-project/go-fil-markets#629](https://github.com/filecoin-project/go-fil-markets/pull/629))
+- github.com/xiaomdong/go-fil-markets:
+  - log advertisement cid for announcement and update deps (#667) ([filecoin-project/go-fil-markets#667](https://github.com/xiaomdong/go-fil-markets/pull/667))
+  - release: v1.15.0 ([filecoin-project/go-fil-markets#661](https://github.com/xiaomdong/go-fil-markets/pull/661))
+  - retrieve by any CID (not just root CID) and reference provider integration (#629) ([filecoin-project/go-fil-markets#629](https://github.com/xiaomdong/go-fil-markets/pull/629))
 
 The revert commit is:
-- github.com/filecoin-project/go-fil-markets:
-  - revert index provider PR #629 and associated PRs (#670) ([filecoin-project/go-fil-markets#670](https://github.com/filecoin-project/go-fil-markets/pull/670))
+- github.com/xiaomdong/go-fil-markets:
+  - revert index provider PR #629 and associated PRs (#670) ([filecoin-project/go-fil-markets#670](https://github.com/xiaomdong/go-fil-markets/pull/670))
 
 Contributors
 
@@ -176,8 +176,8 @@ Contributors
 
 # go-fil-markets v1.14.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - refactor: isolate commp in its own package to avoid exposing pulling filecoin-ffi (#659) ([filecoin-project/go-fil-markets#659](https://github.com/filecoin-project/go-fil-markets/pull/659))
+- github.com/xiaomdong/go-fil-markets:
+  - refactor: isolate commp in its own package to avoid exposing pulling filecoin-ffi (#659) ([filecoin-project/go-fil-markets#659](https://github.com/xiaomdong/go-fil-markets/pull/659))
 
 Contributors
 
@@ -187,8 +187,8 @@ Contributors
 
 # go-fil-markets v1.14.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - add SeekStart method to inflator reader (#656) ([filecoin-project/go-fil-markets#656](https://github.com/filecoin-project/go-fil-markets/pull/656))
+- github.com/xiaomdong/go-fil-markets:
+  - add SeekStart method to inflator reader (#656) ([filecoin-project/go-fil-markets#656](https://github.com/xiaomdong/go-fil-markets/pull/656))
 
 Contributors
 
@@ -202,8 +202,8 @@ Add timeout for awaiting restart
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Timeout provider after waiting a period of time for transfer to restart (#655) ([filecoin-project/go-fil-markets#655](https://github.com/filecoin-project/go-fil-markets/pull/655))
+- github.com/xiaomdong/go-fil-markets:
+  - Timeout provider after waiting a period of time for transfer to restart (#655) ([filecoin-project/go-fil-markets#655](https://github.com/xiaomdong/go-fil-markets/pull/655))
 
 ### Contributors
 
@@ -217,8 +217,8 @@ Update to context data stores
 
 # go-fil-markets 1.13.4
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update go-car to v2.1.0  (#650) ([filecoin-project/go-fil-markets#650](https://github.com/filecoin-project/go-fil-markets/pull/650))
+- github.com/xiaomdong/go-fil-markets:
+  - Update go-car to v2.1.0  (#650) ([filecoin-project/go-fil-markets#650](https://github.com/xiaomdong/go-fil-markets/pull/650))
 
 Contributors
 
@@ -228,8 +228,8 @@ Contributors
 
 # go-fil-markets 1.13.3
 
-- github.com/filecoin-project/go-fil-markets:
-  - Fix network error log (#643) ([filecoin-project/go-fil-markets#643](https://github.com/filecoin-project/go-fil-markets/pull/643))
+- github.com/xiaomdong/go-fil-markets:
+  - Fix network error log (#643) ([filecoin-project/go-fil-markets#643](https://github.com/xiaomdong/go-fil-markets/pull/643))
 - github.com/filecoin-project/go-data-transfer (v1.11.1 -> v1.11.4):
   - fix: clear error message on channel open after restart (#273) ([filecoin-project/go-data-transfer#273](https://github.com/filecoin-project/go-data-transfer/pull/273))
   - fix: flaky TestAutoRestartAfterBouncingInitiator (sleep before starting new initiator) (#275) ([filecoin-project/go-data-transfer#275](https://github.com/filecoin-project/go-data-transfer/pull/275))
@@ -246,9 +246,9 @@ Contributors
 
 # go-fil-markets 1.13.2
 
-- github.com/filecoin-project/go-fil-markets:
-  - block in Publish state when message sending fails due to lack of funds (#638) ([filecoin-project/go-fil-markets#638](https://github.com/filecoin-project/go-fil-markets/pull/638))
-  - Standardize definition of a recursive non-matching selector (#640) ([filecoin-project/go-fil-markets#640](https://github.com/filecoin-project/go-fil-markets/pull/640))
+- github.com/xiaomdong/go-fil-markets:
+  - block in Publish state when message sending fails due to lack of funds (#638) ([filecoin-project/go-fil-markets#638](https://github.com/xiaomdong/go-fil-markets/pull/638))
+  - Standardize definition of a recursive non-matching selector (#640) ([filecoin-project/go-fil-markets#640](https://github.com/xiaomdong/go-fil-markets/pull/640))
 
 Contributors
 
@@ -259,8 +259,8 @@ Contributors
 
 # go-fil-markets 1.13.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: upgrade to go-data-transfer v1.11.1 (#636) ([filecoin-project/go-fil-markets#636](https://github.com/filecoin-project/go-fil-markets/pull/636))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: upgrade to go-data-transfer v1.11.1 (#636) ([filecoin-project/go-fil-markets#636](https://github.com/xiaomdong/go-fil-markets/pull/636))
 - github.com/filecoin-project/go-data-transfer (v1.11.0 -> v1.11.1):
   - feat: update to go-graphsync v0.10.0 (#263) ([filecoin-project/go-data-transfer#263](https://github.com/filecoin-project/go-data-transfer/pull/263))
 - github.com/ipfs/go-graphsync (v0.10.0-rc3 -> v0.10.0):
@@ -275,9 +275,9 @@ Contributors
 
 # go-fil-markets 1.13.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - commp: expose MaxTraversalLinks option for generating CommP (#633) ([filecoin-project/go-fil-markets#633](https://github.com/filecoin-project/go-fil-markets/pull/633))
-  - fix: retrieval not found error (#630) ([filecoin-project/go-fil-markets#630](https://github.com/filecoin-project/go-fil-markets/pull/630))
+- github.com/xiaomdong/go-fil-markets:
+  - commp: expose MaxTraversalLinks option for generating CommP (#633) ([filecoin-project/go-fil-markets#633](https://github.com/xiaomdong/go-fil-markets/pull/633))
+  - fix: retrieval not found error (#630) ([filecoin-project/go-fil-markets#630](https://github.com/xiaomdong/go-fil-markets/pull/630))
 - github.com/filecoin-project/go-data-transfer (v1.10.0 -> v1.11.0):
   - feat: update to go-ipld-prime v0.12.3 (#261) ([filecoin-project/go-data-transfer#261](https://github.com/filecoin-project/go-data-transfer/pull/261))
   - refactor: remove libp2p protocol cache (#259) ([filecoin-project/go-data-transfer#259](https://github.com/filecoin-project/go-data-transfer/pull/259))
@@ -315,32 +315,32 @@ Reinstate update to graphsync v0.9.0 with new Linksystem IPLD prime
 
 - Remove go-multistore dependency
 - update go-data-transfer to v1.9.0
-- Revert "Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#476) ([filecoin-project/go-fil-markets#476](https://github.com/filecoin-project/go-fil-markets/pull/476))"
+- Revert "Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#476) ([filecoin-project/go-fil-markets#476](https://github.com/xiaomdong/go-fil-markets/pull/476))"
 
 # go-fil-markets v1.9.0
 
-- "Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#616) ([filecoin-project/go-fil-markets#616](https://github.com/filecoin-project/go-fil-markets/pull/616))"
+- "Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#616) ([filecoin-project/go-fil-markets#616](https://github.com/xiaomdong/go-fil-markets/pull/616))"
 
 # go-fil-markets v1.8.0
 
-- Migrate to DAG store + CARv2 blockstores for storage and retrieval (#576) ([filecoin-project/go-fil-markets#576](https://github.com/filecoin-project/go-fil-markets/pull/576))
+- Migrate to DAG store + CARv2 blockstores for storage and retrieval (#576) ([filecoin-project/go-fil-markets#576](https://github.com/xiaomdong/go-fil-markets/pull/576))
 
 # go-fil-markets v1.7.0
 
-- Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#476) ([filecoin-project/go-fil-markets#476](https://github.com/filecoin-project/go-fil-markets/pull/476)) 
+- Pass deal proposal instead of deal ID to OnDealExpiredOrSlashed (#476) ([filecoin-project/go-fil-markets#476](https://github.com/xiaomdong/go-fil-markets/pull/476)) 
 
 # go-fil-markets v1.6.0
 
 - Add a `StorageDealTransferQueued` event on the storage client that means that the data transfer request has been queued and will be executed soon.
-- Support padding out smaller files (https://github.com/filecoin-project/go-fil-markets/pull/536).
-- Storage Client peer and the peer that actually does the data transfer can be different (https://github.com/filecoin-project/go-fil-markets/pull/585).
+- Support padding out smaller files (https://github.com/xiaomdong/go-fil-markets/pull/536).
+- Storage Client peer and the peer that actually does the data transfer can be different (https://github.com/xiaomdong/go-fil-markets/pull/585).
 
 # go-fil-markets v1.5.0
 
 Adds Dynamic Retrieval Pricing
 
-- github.com/filecoin-project/go-fil-markets:
-  - Dynamic Retrieval Pricing (#542) ([filecoin-project/go-fil-markets#542](https://github.com/filecoin-project/go-fil-markets/pull/542))
+- github.com/xiaomdong/go-fil-markets:
+  - Dynamic Retrieval Pricing (#542) ([filecoin-project/go-fil-markets#542](https://github.com/xiaomdong/go-fil-markets/pull/542))
 
 Contributors
 
@@ -351,10 +351,10 @@ Contributors
 
 # go-fil-markets v1.4.0
 
-Generating Changelog for github.com/filecoin-project/go-fil-markets v1.3.0..3511c5617142836e369e31890f544bdd574d970f
-- github.com/filecoin-project/go-fil-markets:
-  - Update to go data transfer v1.6.0 (#550) ([filecoin-project/go-fil-markets#550](https://github.com/filecoin-project/go-fil-markets/pull/550))
-  - fix first make error (#548) ([filecoin-project/go-fil-markets#548](https://github.com/filecoin-project/go-fil-markets/pull/548))
+Generating Changelog for github.com/xiaomdong/go-fil-markets v1.3.0..3511c5617142836e369e31890f544bdd574d970f
+- github.com/xiaomdong/go-fil-markets:
+  - Update to go data transfer v1.6.0 (#550) ([filecoin-project/go-fil-markets#550](https://github.com/xiaomdong/go-fil-markets/pull/550))
+  - fix first make error (#548) ([filecoin-project/go-fil-markets#548](https://github.com/xiaomdong/go-fil-markets/pull/548))
 - github.com/filecoin-project/go-data-transfer (v1.5.0 -> v1.6.0):
   - fix: option to disable accept and complete timeouts
   - fix: disable restart ack timeout
@@ -369,10 +369,10 @@ Contributors
 
 # go-fil-markets v1.3.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix restarts during data transfer for a retrieval deal (#540) ([filecoin-project/go-fil-markets#540](https://github.com/filecoin-project/go-fil-markets/pull/540))
-  - Test Retrieval for offline deals (#541) ([filecoin-project/go-fil-markets#541](https://github.com/filecoin-project/go-fil-markets/pull/541))
-  - Allow anonymous submodule checkout (#535) ([filecoin-project/go-fil-markets#535](https://github.com/filecoin-project/go-fil-markets/pull/535))
+- github.com/xiaomdong/go-fil-markets:
+  - fix restarts during data transfer for a retrieval deal (#540) ([filecoin-project/go-fil-markets#540](https://github.com/xiaomdong/go-fil-markets/pull/540))
+  - Test Retrieval for offline deals (#541) ([filecoin-project/go-fil-markets#541](https://github.com/xiaomdong/go-fil-markets/pull/541))
+  - Allow anonymous submodule checkout (#535) ([filecoin-project/go-fil-markets#535](https://github.com/xiaomdong/go-fil-markets/pull/535))
 - github.com/filecoin-project/go-data-transfer (v1.4.3 -> v1.5.0):
   - Add isRestart param to validators (#197) ([filecoin-project/go-data-transfer#197](https://github.com/filecoin-project/go-data-transfer/pull/197))
   - fix: flaky TestChannelMonitorAutoRestart (#198) ([filecoin-project/go-data-transfer#198](https://github.com/filecoin-project/go-data-transfer/pull/198))
@@ -394,10 +394,10 @@ Contributors
 
 # go-fil-markets v1.2.5
 
-- github.com/filecoin-project/go-fil-markets:
-  - add timeout for sending cancel message to peer when retrieval cancelled (#531) ([filecoin-project/go-fil-markets#531](https://github.com/filecoin-project/go-fil-markets/pull/531))
-  - Flush out & fix retrieval bugs (#525) ([filecoin-project/go-fil-markets#525](https://github.com/filecoin-project/go-fil-markets/pull/525))
-  - fix: use time-based deal ID instead of stored counter (#529) ([filecoin-project/go-fil-markets#529](https://github.com/filecoin-project/go-fil-markets/pull/529))
+- github.com/xiaomdong/go-fil-markets:
+  - add timeout for sending cancel message to peer when retrieval cancelled (#531) ([filecoin-project/go-fil-markets#531](https://github.com/xiaomdong/go-fil-markets/pull/531))
+  - Flush out & fix retrieval bugs (#525) ([filecoin-project/go-fil-markets#525](https://github.com/xiaomdong/go-fil-markets/pull/525))
+  - fix: use time-based deal ID instead of stored counter (#529) ([filecoin-project/go-fil-markets#529](https://github.com/xiaomdong/go-fil-markets/pull/529))
 - github.com/filecoin-project/go-data-transfer (v1.4.1 -> v1.4.2):
   - Support no-op error responses  (#186) ([filecoin-project/go-data-transfer#186](https://github.com/filecoin-project/go-data-transfer/pull/186))
   - fix: fail a pull channel when there is a timeout receiving the Complete message (#179) ([filecoin-project/go-data-transfer#179](https://github.com/filecoin-project/go-data-transfer/pull/179))
@@ -412,10 +412,10 @@ Contributors
 
 # go-fil-markets v1.2.4
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update to go-data-transfer v1.4.1 (#523) ([filecoin-project/go-fil-markets#523](https://github.com/filecoin-project/go-fil-markets/pull/523))
-  - Poll Provider for acceptance only till (deal start epoch + grace period) has elapsed  (#516) ([filecoin-project/go-fil-markets#516](https://github.com/filecoin-project/go-fil-markets/pull/516))
-  - Add DealStages to track and log Deal status updates (#502) ([filecoin-project/go-fil-markets#502](https://github.com/filecoin-project/go-fil-markets/pull/502))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update to go-data-transfer v1.4.1 (#523) ([filecoin-project/go-fil-markets#523](https://github.com/xiaomdong/go-fil-markets/pull/523))
+  - Poll Provider for acceptance only till (deal start epoch + grace period) has elapsed  (#516) ([filecoin-project/go-fil-markets#516](https://github.com/xiaomdong/go-fil-markets/pull/516))
+  - Add DealStages to track and log Deal status updates (#502) ([filecoin-project/go-fil-markets#502](https://github.com/xiaomdong/go-fil-markets/pull/502))
 - github.com/filecoin-project/go-data-transfer (v1.4.0 -> v1.4.1):
   - Add ChannelStages to keep track of history of lifecycle of a DataTransfer (#163) ([filecoin-project/go-data-transfer#163](https://github.com/filecoin-project/go-data-transfer/pull/163))
 
@@ -430,10 +430,10 @@ Contributors
 
 # go-fil-markets v1.2.3
 
-Generating Changelog for github.com/filecoin-project/go-fil-markets v1.2.2..cf830ee0459221d4ba7e91f105a0f19b6d5a453e
-- github.com/filecoin-project/go-fil-markets:
-  - fix: process payment request from provider while initiating payment channel (#520) ([filecoin-project/go-fil-markets#520](https://github.com/filecoin-project/go-fil-markets/pull/520))
-  - fix: remove LocatePieceForDealWithinSector (no longer used) (#518) ([filecoin-project/go-fil-markets#518](https://github.com/filecoin-project/go-fil-markets/pull/518))
+Generating Changelog for github.com/xiaomdong/go-fil-markets v1.2.2..cf830ee0459221d4ba7e91f105a0f19b6d5a453e
+- github.com/xiaomdong/go-fil-markets:
+  - fix: process payment request from provider while initiating payment channel (#520) ([filecoin-project/go-fil-markets#520](https://github.com/xiaomdong/go-fil-markets/pull/520))
+  - fix: remove LocatePieceForDealWithinSector (no longer used) (#518) ([filecoin-project/go-fil-markets#518](https://github.com/xiaomdong/go-fil-markets/pull/518))
 
 Contributors
 
@@ -443,8 +443,8 @@ Contributors
 
 # go-fil-markets v1.2.2
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update to go-data-transfer v1.4.0 (#514) ([filecoin-project/go-fil-markets#514](https://github.com/filecoin-project/go-fil-markets/pull/514))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update to go-data-transfer v1.4.0 (#514) ([filecoin-project/go-fil-markets#514](https://github.com/xiaomdong/go-fil-markets/pull/514))
 - github.com/filecoin-project/go-data-transfer (v1.3.0 -> v1.4.0):
   - feat: add config options to enable / disable push or pull monitoring individually (#174) ([filecoin-project/go-data-transfer#174](https://github.com/filecoin-project/go-data-transfer/pull/174))
   - fix: ensure channel monitor shuts down when transfer complete (#171) ([filecoin-project/go-data-transfer#171](https://github.com/filecoin-project/go-data-transfer/pull/171))
@@ -458,8 +458,8 @@ Contributors
 
 # go-fil-markets v1.2.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update tests for go-data-transfer 1.3.0 (#510) ([filecoin-project/go-fil-markets#510](https://github.com/filecoin-project/go-fil-markets/pull/510))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update tests for go-data-transfer 1.3.0 (#510) ([filecoin-project/go-fil-markets#510](https://github.com/xiaomdong/go-fil-markets/pull/510))
 - github.com/filecoin-project/go-data-transfer (v1.2.9 -> v1.3.0):
   - feat: use random number instead of incrementing counter for transfer ID (#169) ([filecoin-project/go-data-transfer#169](https://github.com/filecoin-project/go-data-transfer/pull/169))
 
@@ -472,13 +472,13 @@ Contributors
 
 # go-fil-markets v1.2.0
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update to go-data-transfer v1.2.9 (#508) (#504) ([filecoin-project/go-fil-markets#504](https://github.com/filecoin-project/go-fil-markets/pull/504))
-  - always try to return some message to the client (#498) ([filecoin-project/go-fil-markets#498](https://github.com/filecoin-project/go-fil-markets/pull/498))
-  - fix: close the reader after unsealing into blockstore (#507) ([filecoin-project/go-fil-markets#507](https://github.com/filecoin-project/go-fil-markets/pull/507))
-  - fix: disallow concurrent retrieval deals for same peer/cid (#493) ([filecoin-project/go-fil-markets#493](https://github.com/filecoin-project/go-fil-markets/pull/493))
-  - make deal state channel id nilable (#490) ([filecoin-project/go-fil-markets#490](https://github.com/filecoin-project/go-fil-markets/pull/490))
-  - fix: add funds to payment channel before allocating lane (#495) ([filecoin-project/go-fil-markets#495](https://github.com/filecoin-project/go-fil-markets/pull/495))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update to go-data-transfer v1.2.9 (#508) (#504) ([filecoin-project/go-fil-markets#504](https://github.com/xiaomdong/go-fil-markets/pull/504))
+  - always try to return some message to the client (#498) ([filecoin-project/go-fil-markets#498](https://github.com/xiaomdong/go-fil-markets/pull/498))
+  - fix: close the reader after unsealing into blockstore (#507) ([filecoin-project/go-fil-markets#507](https://github.com/xiaomdong/go-fil-markets/pull/507))
+  - fix: disallow concurrent retrieval deals for same peer/cid (#493) ([filecoin-project/go-fil-markets#493](https://github.com/xiaomdong/go-fil-markets/pull/493))
+  - make deal state channel id nilable (#490) ([filecoin-project/go-fil-markets#490](https://github.com/xiaomdong/go-fil-markets/pull/490))
+  - fix: add funds to payment channel before allocating lane (#495) ([filecoin-project/go-fil-markets#495](https://github.com/xiaomdong/go-fil-markets/pull/495))
 - github.com/filecoin-project/go-data-transfer (v1.2.7 -> v1.2.9):
   - fix: log line in pull data channel monitor (#165) ([filecoin-project/go-data-transfer#165](https://github.com/filecoin-project/go-data-transfer/pull/165))
   - feat: better reconnect behaviour (#162) ([filecoin-project/go-data-transfer#162](https://github.com/filecoin-project/go-data-transfer/pull/162))
@@ -514,8 +514,8 @@ Contributors
 
 # go-fil-markets v1.1.9
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update cbor-gen to ingore unknown map fields (#492) ([filecoin-project/go-fil-markets#492](https://github.com/filecoin-project/go-fil-markets/pull/492))
+- github.com/xiaomdong/go-fil-markets:
+  - Update cbor-gen to ingore unknown map fields (#492) ([filecoin-project/go-fil-markets#492](https://github.com/xiaomdong/go-fil-markets/pull/492))
 
 Contributors
 
@@ -528,8 +528,8 @@ Contributors
 
 # go-fil-markets v1.1.8
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: add RawBlockSize to DataRef (#487) ([filecoin-project/go-fil-markets#487](https://github.com/filecoin-project/go-fil-markets/pull/487))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: add RawBlockSize to DataRef (#487) ([filecoin-project/go-fil-markets#487](https://github.com/xiaomdong/go-fil-markets/pull/487))
 
 Contributors
 
@@ -539,9 +539,9 @@ Contributors
 
 # go-fil-markets v1.1.7
 
-- github.com/filecoin-project/go-fil-markets:
-  - Better storage fsm error handling (#484) ([filecoin-project/go-fil-markets#484](https://github.com/filecoin-project/go-fil-markets/pull/484))
-  - release: v1.1.6 (#485) ([filecoin-project/go-fil-markets#485](https://github.com/filecoin-project/go-fil-markets/pull/485))
+- github.com/xiaomdong/go-fil-markets:
+  - Better storage fsm error handling (#484) ([filecoin-project/go-fil-markets#484](https://github.com/xiaomdong/go-fil-markets/pull/484))
+  - release: v1.1.6 (#485) ([filecoin-project/go-fil-markets#485](https://github.com/xiaomdong/go-fil-markets/pull/485))
 
 Contributors
 
@@ -551,8 +551,8 @@ Contributors
 
 # go-fil-markets v1.1.6
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix: move publish deals msg response parsing from markets into lotus (#475) ([filecoin-project/go-fil-markets#475](https://github.com/filecoin-project/go-fil-markets/pull/475))
+- github.com/xiaomdong/go-fil-markets:
+  - fix: move publish deals msg response parsing from markets into lotus (#475) ([filecoin-project/go-fil-markets#475](https://github.com/xiaomdong/go-fil-markets/pull/475))
 
 Contributors
 
@@ -562,8 +562,8 @@ Contributors
 
 # go-fil-markets v1.1.5
 
-- github.com/filecoin-project/go-fil-markets:
-  - retrieval: skip payment channel creation if total price is zero (#480) ([filecoin-project/go-fil-markets#480](https://github.com/filecoin-project/go-fil-markets/pull/480))
+- github.com/xiaomdong/go-fil-markets:
+  - retrieval: skip payment channel creation if total price is zero (#480) ([filecoin-project/go-fil-markets#480](https://github.com/xiaomdong/go-fil-markets/pull/480))
 
 Contributors
 
@@ -573,8 +573,8 @@ Contributors
 
 # go-fil-markets v1.1.3
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix: handle retrieval deals with zero price per byte (#477) ([filecoin-project/go-fil-markets#477](https://github.com/filecoin-project/go-fil-markets/pull/477))
+- github.com/xiaomdong/go-fil-markets:
+  - fix: handle retrieval deals with zero price per byte (#477) ([filecoin-project/go-fil-markets#477](https://github.com/xiaomdong/go-fil-markets/pull/477))
 
 Contributors
 
@@ -584,9 +584,9 @@ Contributors
 
 # go-fil-markets v1.1.2
 
-Generating Changelog for github.com/filecoin-project/go-fil-markets v1.1.1..d43e9447747b51824c9628e7cff5f2d2c97ae253
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update to go-data-transfer v1.2.7 (#472) ([filecoin-project/go-fil-markets#472](https://github.com/filecoin-project/go-fil-markets/pull/472))
+Generating Changelog for github.com/xiaomdong/go-fil-markets v1.1.1..d43e9447747b51824c9628e7cff5f2d2c97ae253
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update to go-data-transfer v1.2.7 (#472) ([filecoin-project/go-fil-markets#472](https://github.com/xiaomdong/go-fil-markets/pull/472))
 - github.com/filecoin-project/go-data-transfer (v1.2.5 -> v1.2.7):
   - feat: configurable send message timeouts (#136) ([filecoin-project/go-data-transfer#136](https://github.com/filecoin-project/go-data-transfer/pull/136))
   - log request / response events (#137) ([filecoin-project/go-data-transfer#137](https://github.com/filecoin-project/go-data-transfer/pull/137))
@@ -603,8 +603,8 @@ Contributors
 
 # go-fil-markets v1.1.1
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat: go-data-transfer v1.2.5 (with restart limit) (#470) ([filecoin-project/go-fil-markets#470](https://github.com/filecoin-project/go-fil-markets/pull/470))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: go-data-transfer v1.2.5 (with restart limit) (#470) ([filecoin-project/go-fil-markets#470](https://github.com/xiaomdong/go-fil-markets/pull/470))
 - github.com/filecoin-project/go-data-transfer (v1.2.4 -> v1.2.5):
   - feat: limit consecutive restarts with no data transfer (#129) ([filecoin-project/go-data-transfer#129](https://github.com/filecoin-project/go-data-transfer/pull/129))
 
@@ -620,8 +620,8 @@ Contributors
 Better retry config
 
 ### Changelog
-- github.com/filecoin-project/go-fil-markets:
-  - feat: retry config - separate max open attempts from backoff factor (#467) ([filecoin-project/go-fil-markets#467](https://github.com/filecoin-project/go-fil-markets/pull/467))
+- github.com/xiaomdong/go-fil-markets:
+  - feat: retry config - separate max open attempts from backoff factor (#467) ([filecoin-project/go-fil-markets#467](https://github.com/xiaomdong/go-fil-markets/pull/467))
 
 Contributors
 
@@ -635,8 +635,8 @@ When the miner restarts it should not dial the client, the client will automatic
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - on restart miner shouldn't dial client (#463) ([filecoin-project/go-fil-markets#463](https://github.com/filecoin-project/go-fil-markets/pull/463))
+- github.com/xiaomdong/go-fil-markets:
+  - on restart miner shouldn't dial client (#463) ([filecoin-project/go-fil-markets#463](https://github.com/xiaomdong/go-fil-markets/pull/463))
 - github.com/filecoin-project/go-data-transfer (v1.2.3 -> v1.2.4):
   - Automatically restart push channel (#127) ([filecoin-project/go-data-transfer#127](https://github.com/filecoin-project/go-data-transfer/pull/127))
 - github.com/ipfs/go-graphsync (v0.5.0 -> v0.5.2):
@@ -657,10 +657,10 @@ Contributors
 
 ### Changelog
 
-Generating Changelog for github.com/filecoin-project/go-fil-markets v1.0.9..73534649f61b89d2a332b0939e19aa440a9dc6dc
-- github.com/filecoin-project/go-fil-markets:
-  - feat: update to go-data-transfer v1.2.3 (#465) ([filecoin-project/go-fil-markets#465](https://github.com/filecoin-project/go-fil-markets/pull/465))
-  - Normalize final states for cancelled retrieval deals (#464) ([filecoin-project/go-fil-markets#464](https://github.com/filecoin-project/go-fil-markets/pull/464))
+Generating Changelog for github.com/xiaomdong/go-fil-markets v1.0.9..73534649f61b89d2a332b0939e19aa440a9dc6dc
+- github.com/xiaomdong/go-fil-markets:
+  - feat: update to go-data-transfer v1.2.3 (#465) ([filecoin-project/go-fil-markets#465](https://github.com/xiaomdong/go-fil-markets/pull/465))
+  - Normalize final states for cancelled retrieval deals (#464) ([filecoin-project/go-fil-markets#464](https://github.com/xiaomdong/go-fil-markets/pull/464))
 - github.com/filecoin-project/go-data-transfer (v1.2.2 -> v1.2.3):
   - Better retry config (#124) ([filecoin-project/go-data-transfer#124](https://github.com/filecoin-project/go-data-transfer/pull/124))
   - feat: expose channel state on Manager interface (#125) ([filecoin-project/go-data-transfer#125](https://github.com/filecoin-project/go-data-transfer/pull/125))
@@ -678,8 +678,8 @@ Contributors
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix: clear deal message when deal accepted (#461) ([filecoin-project/go-fil-markets#461](https://github.com/filecoin-project/go-fil-markets/pull/461))
+- github.com/xiaomdong/go-fil-markets:
+  - fix: clear deal message when deal accepted (#461) ([filecoin-project/go-fil-markets#461](https://github.com/xiaomdong/go-fil-markets/pull/461))
   
 Contributors
 
@@ -692,10 +692,10 @@ Contributors
 
 ### Changelog
 
-- feat: go-data-transfer 1.2.2 (#459) ([filecoin-project/go-fil-markets#459](https://github.com/filecoin-project/go-fil-markets/pull/459))
-- Cancel transfer should cause Storage deal to fail (#457) ([filecoin-project/go-fil-markets#457](https://github.com/filecoin-project/go-fil-markets/pull/457))
-- Give more visibility (to the client) while waiting for deal acceptance (#458) ([filecoin-project/go-fil-markets#458](https://github.com/filecoin-project/go-fil-markets/pull/458))
-- docs(CHANGELOG): update for v1.0.7 release ([filecoin-project/go-fil-markets#456](https://github.com/filecoin-project/go-fil-markets/pull/456))
+- feat: go-data-transfer 1.2.2 (#459) ([filecoin-project/go-fil-markets#459](https://github.com/xiaomdong/go-fil-markets/pull/459))
+- Cancel transfer should cause Storage deal to fail (#457) ([filecoin-project/go-fil-markets#457](https://github.com/xiaomdong/go-fil-markets/pull/457))
+- Give more visibility (to the client) while waiting for deal acceptance (#458) ([filecoin-project/go-fil-markets#458](https://github.com/xiaomdong/go-fil-markets/pull/458))
+- docs(CHANGELOG): update for v1.0.7 release ([filecoin-project/go-fil-markets#456](https://github.com/xiaomdong/go-fil-markets/pull/456))
 - github.com/filecoin-project/go-data-transfer (v1.0.1 -> v1.2.2):
   - fix(graphsync): fix UseStore for restarts (#115) ([filecoin-project/go-data-transfer#115](https://github.com/filecoin-project/go-data-transfer/pull/115))
   - Fire cancel locally even if remote cancel fails (#120) ([filecoin-project/go-data-transfer#120](https://github.com/filecoin-project/go-data-transfer/pull/120))
@@ -717,9 +717,9 @@ Seperate pre-commit & post-commit states for deals
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - docs(CHANGELOG): update for v1.0.6 ([filecoin-project/go-fil-markets#454](https://github.com/filecoin-project/go-fil-markets/pull/454))
-  - Add StorageDealAwaitingPreCommit state (#453) ([filecoin-project/go-fil-markets#453](https://github.com/filecoin-project/go-fil-markets/pull/453))
+- github.com/xiaomdong/go-fil-markets:
+  - docs(CHANGELOG): update for v1.0.6 ([filecoin-project/go-fil-markets#454](https://github.com/xiaomdong/go-fil-markets/pull/454))
+  - Add StorageDealAwaitingPreCommit state (#453) ([filecoin-project/go-fil-markets#453](https://github.com/xiaomdong/go-fil-markets/pull/453))
 
 ### Contributors
 
@@ -733,9 +733,9 @@ Complete removal of temp file usage
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Integrate go-commp-utils (#452) ([filecoin-project/go-fil-markets#452](https://github.com/filecoin-project/go-fil-markets/pull/452))
-  - release: v1.0.5 ([filecoin-project/go-fil-markets#451](https://github.com/filecoin-project/go-fil-markets/pull/451))
+- github.com/xiaomdong/go-fil-markets:
+  - Integrate go-commp-utils (#452) ([filecoin-project/go-fil-markets#452](https://github.com/xiaomdong/go-fil-markets/pull/452))
+  - release: v1.0.5 ([filecoin-project/go-fil-markets#451](https://github.com/xiaomdong/go-fil-markets/pull/451))
 
 ### Contributors
 
@@ -749,10 +749,10 @@ Minor bug fix release
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Remove temp files (#449) ([filecoin-project/go-fil-markets#449](https://github.com/filecoin-project/go-fil-markets/pull/449))
-  - fix: fail fast in tests that use a waitgroup Wait() (#450) ([filecoin-project/go-fil-markets#450](https://github.com/filecoin-project/go-fil-markets/pull/450))
-  - Make it possible to configure the proof type at runtime. ([filecoin-project/go-fil-markets#448](https://github.com/filecoin-project/go-fil-markets/pull/448))
+- github.com/xiaomdong/go-fil-markets:
+  - Remove temp files (#449) ([filecoin-project/go-fil-markets#449](https://github.com/xiaomdong/go-fil-markets/pull/449))
+  - fix: fail fast in tests that use a waitgroup Wait() (#450) ([filecoin-project/go-fil-markets#450](https://github.com/xiaomdong/go-fil-markets/pull/450))
+  - Make it possible to configure the proof type at runtime. ([filecoin-project/go-fil-markets#448](https://github.com/xiaomdong/go-fil-markets/pull/448))
 
 ### Contributors
 
@@ -768,7 +768,7 @@ Integrate new lotus FundManager
 
 ### Changelog
 
-- [Integrate new FundManager](https://github.com/filecoin-project/go-fil-markets/pull/445)
+- [Integrate new FundManager](https://github.com/xiaomdong/go-fil-markets/pull/445)
 
 ### Contributors
 
@@ -782,10 +782,10 @@ Minor bug fixes and interface change for OnDealSectorCommitted
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Pass PublishCID (#441) ([filecoin-project/go-fil-markets#441](https://github.com/filecoin-project/go-fil-markets/pull/441))
-  - docs(CHANGELOG): update for 1.0.0 release ([filecoin-project/go-fil-markets#443](https://github.com/filecoin-project/go-fil-markets/pull/443))
-  - fix(providerstates): save paths on commP mismatch (#440) ([filecoin-project/go-fil-markets#440](https://github.com/filecoin-project/go-fil-markets/pull/440))
+- github.com/xiaomdong/go-fil-markets:
+  - Pass PublishCID (#441) ([filecoin-project/go-fil-markets#441](https://github.com/xiaomdong/go-fil-markets/pull/441))
+  - docs(CHANGELOG): update for 1.0.0 release ([filecoin-project/go-fil-markets#443](https://github.com/xiaomdong/go-fil-markets/pull/443))
+  - fix(providerstates): save paths on commP mismatch (#440) ([filecoin-project/go-fil-markets#440](https://github.com/xiaomdong/go-fil-markets/pull/440))
 
 ### Contributors
 
@@ -799,10 +799,10 @@ Cut 1.0.0 release with a few fixes
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - docs(CHANGELOG): update for 0.9.1 ([filecoin-project/go-fil-markets#439](https://github.com/filecoin-project/go-fil-markets/pull/439))
-  - If available, SetAsk will use a previously-stored ask for default values for Min/Max piece sizes (#438) ([filecoin-project/go-fil-markets#438](https://github.com/filecoin-project/go-fil-markets/pull/438))
-  - Create SECURITY.md (#436) ([filecoin-project/go-fil-markets#436](https://github.com/filecoin-project/go-fil-markets/pull/436))
+- github.com/xiaomdong/go-fil-markets:
+  - docs(CHANGELOG): update for 0.9.1 ([filecoin-project/go-fil-markets#439](https://github.com/xiaomdong/go-fil-markets/pull/439))
+  - If available, SetAsk will use a previously-stored ask for default values for Min/Max piece sizes (#438) ([filecoin-project/go-fil-markets#438](https://github.com/xiaomdong/go-fil-markets/pull/438))
+  - Create SECURITY.md (#436) ([filecoin-project/go-fil-markets#436](https://github.com/xiaomdong/go-fil-markets/pull/436))
 
 ### Contributors
 
@@ -817,9 +817,9 @@ Critical bug fix for v0.9.0
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix(clientstates): fix panil on transfer id not present (#437) ([filecoin-project/go-fil-markets#437](https://github.com/filecoin-project/go-fil-markets/pull/437))
-  - docs(CHANGELOG): update for 0.9.0 release ([filecoin-project/go-fil-markets#434](https://github.com/filecoin-project/go-fil-markets/pull/434))
+- github.com/xiaomdong/go-fil-markets:
+  - fix(clientstates): fix panil on transfer id not present (#437) ([filecoin-project/go-fil-markets#437](https://github.com/xiaomdong/go-fil-markets/pull/437))
+  - docs(CHANGELOG): update for 0.9.0 release ([filecoin-project/go-fil-markets#434](https://github.com/xiaomdong/go-fil-markets/pull/434))
 
 ### Contributors
 
@@ -834,13 +834,13 @@ Also restarts data transfer automatically for storage market side
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Record data transfer errors (#432) ([filecoin-project/go-fil-markets#432](https://github.com/filecoin-project/go-fil-markets/pull/432))
-  - set ask correct behaviour (#433) ([filecoin-project/go-fil-markets#433](https://github.com/filecoin-project/go-fil-markets/pull/433))
-  - Resume Storage Market Data Transfer (#430) ([filecoin-project/go-fil-markets#430](https://github.com/filecoin-project/go-fil-markets/pull/430))
-  - Exponential backoff, rebased (#431) ([filecoin-project/go-fil-markets#431](https://github.com/filecoin-project/go-fil-markets/pull/431))
-  - Providers should reject deals with invalid durations (#427) ([filecoin-project/go-fil-markets#427](https://github.com/filecoin-project/go-fil-markets/pull/427))
-  - docs(CHANGELOG): update for 0.7.1 ([filecoin-project/go-fil-markets#428](https://github.com/filecoin-project/go-fil-markets/pull/428))
+- github.com/xiaomdong/go-fil-markets:
+  - Record data transfer errors (#432) ([filecoin-project/go-fil-markets#432](https://github.com/xiaomdong/go-fil-markets/pull/432))
+  - set ask correct behaviour (#433) ([filecoin-project/go-fil-markets#433](https://github.com/xiaomdong/go-fil-markets/pull/433))
+  - Resume Storage Market Data Transfer (#430) ([filecoin-project/go-fil-markets#430](https://github.com/xiaomdong/go-fil-markets/pull/430))
+  - Exponential backoff, rebased (#431) ([filecoin-project/go-fil-markets#431](https://github.com/xiaomdong/go-fil-markets/pull/431))
+  - Providers should reject deals with invalid durations (#427) ([filecoin-project/go-fil-markets#427](https://github.com/xiaomdong/go-fil-markets/pull/427))
+  - docs(CHANGELOG): update for 0.7.1 ([filecoin-project/go-fil-markets#428](https://github.com/xiaomdong/go-fil-markets/pull/428))
 - github.com/filecoin-project/go-data-transfer (v0.6.7 -> v0.9.0):
   - docs(CHANGELOG): update for 0.9.0
   - Message compatibility on graphsync (#102) ([filecoin-project/go-data-transfer#102](https://github.com/filecoin-project/go-data-transfer/pull/102))
@@ -868,11 +868,11 @@ minor bug fixes and optimizations
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - docs(CHANGELOG): update for 0.7.0 ([filecoin-project/go-fil-markets#426](https://github.com/filecoin-project/go-fil-markets/pull/426))
-  - early return in retrieval validation to prevent unnecessary disk access (#425) ([filecoin-project/go-fil-markets#425](https://github.com/filecoin-project/go-fil-markets/pull/425))
-  - Add option for specific stopping event for providers in TestRestartClient (#424) ([filecoin-project/go-fil-markets#424](https://github.com/filecoin-project/go-fil-markets/pull/424))
-  - Handle re-sent deal proposals (#423) ([filecoin-project/go-fil-markets#423](https://github.com/filecoin-project/go-fil-markets/pull/423))
+- github.com/xiaomdong/go-fil-markets:
+  - docs(CHANGELOG): update for 0.7.0 ([filecoin-project/go-fil-markets#426](https://github.com/xiaomdong/go-fil-markets/pull/426))
+  - early return in retrieval validation to prevent unnecessary disk access (#425) ([filecoin-project/go-fil-markets#425](https://github.com/xiaomdong/go-fil-markets/pull/425))
+  - Add option for specific stopping event for providers in TestRestartClient (#424) ([filecoin-project/go-fil-markets#424](https://github.com/xiaomdong/go-fil-markets/pull/424))
+  - Handle re-sent deal proposals (#423) ([filecoin-project/go-fil-markets#423](https://github.com/xiaomdong/go-fil-markets/pull/423))
 
 ### Contributors
 
@@ -888,11 +888,11 @@ Switch to cbor-map encodings across the module, with migrations
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Switch to cbor map encoding for storage market (#420) ([filecoin-project/go-fil-markets#420](https://github.com/filecoin-project/go-fil-markets/pull/420))
-  - Retrieval Migration to CBOR Map (#418) ([filecoin-project/go-fil-markets#418](https://github.com/filecoin-project/go-fil-markets/pull/418))
-  - Move PieceStore To Map Encodings (#415) ([filecoin-project/go-fil-markets#415](https://github.com/filecoin-project/go-fil-markets/pull/415))
-  - docs(CHANGELOG): update for 0.6.3 ([filecoin-project/go-fil-markets#421](https://github.com/filecoin-project/go-fil-markets/pull/421))
+- github.com/xiaomdong/go-fil-markets:
+  - Switch to cbor map encoding for storage market (#420) ([filecoin-project/go-fil-markets#420](https://github.com/xiaomdong/go-fil-markets/pull/420))
+  - Retrieval Migration to CBOR Map (#418) ([filecoin-project/go-fil-markets#418](https://github.com/xiaomdong/go-fil-markets/pull/418))
+  - Move PieceStore To Map Encodings (#415) ([filecoin-project/go-fil-markets#415](https://github.com/xiaomdong/go-fil-markets/pull/415))
+  - docs(CHANGELOG): update for 0.6.3 ([filecoin-project/go-fil-markets#421](https://github.com/xiaomdong/go-fil-markets/pull/421))
 - github.com/filecoin-project/go-data-transfer (v0.6.6 -> v0.6.7-0.20200929095758-d6c2eaff0694):
   - Feat/cleanup errors (#90) ([filecoin-project/go-data-transfer#90](https://github.com/filecoin-project/go-data-transfer/pull/90))
   - Disambiguate whether a revalidator recognized a request when checking for a need to revalidate (#87) ([filecoin-project/go-data-transfer#87](https://github.com/filecoin-project/go-data-transfer/pull/87))
@@ -913,9 +913,9 @@ dependency update with fix for graphsync
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat(deps): update data transfer 0.6.6 (#417) ([filecoin-project/go-fil-markets#417](https://github.com/filecoin-project/go-fil-markets/pull/417))
-  - docs(CHANGELOG): update for 0.6.2 ([filecoin-project/go-fil-markets#416](https://github.com/filecoin-project/go-fil-markets/pull/416))
+- github.com/xiaomdong/go-fil-markets:
+  - feat(deps): update data transfer 0.6.6 (#417) ([filecoin-project/go-fil-markets#417](https://github.com/xiaomdong/go-fil-markets/pull/417))
+  - docs(CHANGELOG): update for 0.6.2 ([filecoin-project/go-fil-markets#416](https://github.com/xiaomdong/go-fil-markets/pull/416))
 - github.com/filecoin-project/go-data-transfer (v0.6.5 -> v0.6.6):
   - docs(CHANGELOG): update for 0.6.6
   - feat(deps): update graphsync (#86) ([filecoin-project/go-data-transfer#86](https://github.com/filecoin-project/go-data-transfer/pull/86))
@@ -938,14 +938,14 @@ security fixes and dependency updates
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - feat(deps): update data transfer and graphsync (#413) ([filecoin-project/go-fil-markets#413](https://github.com/filecoin-project/go-fil-markets/pull/413))
-  - Additional validations for deal proposals (#409) ([filecoin-project/go-fil-markets#409](https://github.com/filecoin-project/go-fil-markets/pull/409))
-  - Release/v0.6.1 ([filecoin-project/go-fil-markets#412](https://github.com/filecoin-project/go-fil-markets/pull/412))
-  - feat(storagemarket): remove passthrough methods (#404) ([filecoin-project/go-fil-markets#404](https://github.com/filecoin-project/go-fil-markets/pull/404))
-  - - Consider ClientCollateral when validating deal proposal (#408) ([filecoin-project/go-fil-markets#408](https://github.com/filecoin-project/go-fil-markets/pull/408))
-  - Persist retrieval ask on disk (#410) ([filecoin-project/go-fil-markets#410](https://github.com/filecoin-project/go-fil-markets/pull/410))
-  - Tidy up comments (#405) ([filecoin-project/go-fil-markets#405](https://github.com/filecoin-project/go-fil-markets/pull/405))
+- github.com/xiaomdong/go-fil-markets:
+  - feat(deps): update data transfer and graphsync (#413) ([filecoin-project/go-fil-markets#413](https://github.com/xiaomdong/go-fil-markets/pull/413))
+  - Additional validations for deal proposals (#409) ([filecoin-project/go-fil-markets#409](https://github.com/xiaomdong/go-fil-markets/pull/409))
+  - Release/v0.6.1 ([filecoin-project/go-fil-markets#412](https://github.com/xiaomdong/go-fil-markets/pull/412))
+  - feat(storagemarket): remove passthrough methods (#404) ([filecoin-project/go-fil-markets#404](https://github.com/xiaomdong/go-fil-markets/pull/404))
+  - - Consider ClientCollateral when validating deal proposal (#408) ([filecoin-project/go-fil-markets#408](https://github.com/xiaomdong/go-fil-markets/pull/408))
+  - Persist retrieval ask on disk (#410) ([filecoin-project/go-fil-markets#410](https://github.com/xiaomdong/go-fil-markets/pull/410))
+  - Tidy up comments (#405) ([filecoin-project/go-fil-markets#405](https://github.com/xiaomdong/go-fil-markets/pull/405))
 - github.com/filecoin-project/go-data-transfer (v0.6.4 -> v0.6.5):
   - docs(CHANGELOG): updates for 0.6.5
   - feat(deps): update graphsync 0.2.0 (#83) ([filecoin-project/go-data-transfer#83](https://github.com/filecoin-project/go-data-transfer/pull/83))
@@ -980,14 +980,14 @@ Minor fixes around network timeouts, restarts, chain issues
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - feat(deps): update data transfer 0.6.4
-  - feat(network): add config options (#403) ([filecoin-project/go-fil-markets#403](https://github.com/filecoin-project/go-fil-markets/pull/403))
-  - Test Restart for ClientEventDealPublished AND ClientEventDealActivated (#399) ([filecoin-project/go-fil-markets#399](https://github.com/filecoin-project/go-fil-markets/pull/399))
-  - increase timeout (#402) ([filecoin-project/go-fil-markets#402](https://github.com/filecoin-project/go-fil-markets/pull/402))
-  - - Change signature of callback for WaitForMessage() to take a "final Cid" parameter (#400) ([filecoin-project/go-fil-markets#400](https://github.com/filecoin-project/go-fil-markets/pull/400))
-  - feat(clientutils): encode cid directly (#398) ([filecoin-project/go-fil-markets#398](https://github.com/filecoin-project/go-fil-markets/pull/398))
-  - docs(CHANGELOG): update for 0.6.0 release ([filecoin-project/go-fil-markets#397](https://github.com/filecoin-project/go-fil-markets/pull/397))
+  - feat(network): add config options (#403) ([filecoin-project/go-fil-markets#403](https://github.com/xiaomdong/go-fil-markets/pull/403))
+  - Test Restart for ClientEventDealPublished AND ClientEventDealActivated (#399) ([filecoin-project/go-fil-markets#399](https://github.com/xiaomdong/go-fil-markets/pull/399))
+  - increase timeout (#402) ([filecoin-project/go-fil-markets#402](https://github.com/xiaomdong/go-fil-markets/pull/402))
+  - - Change signature of callback for WaitForMessage() to take a "final Cid" parameter (#400) ([filecoin-project/go-fil-markets#400](https://github.com/xiaomdong/go-fil-markets/pull/400))
+  - feat(clientutils): encode cid directly (#398) ([filecoin-project/go-fil-markets#398](https://github.com/xiaomdong/go-fil-markets/pull/398))
+  - docs(CHANGELOG): update for 0.6.0 release ([filecoin-project/go-fil-markets#397](https://github.com/xiaomdong/go-fil-markets/pull/397))
 - github.com/filecoin-project/go-data-transfer (v0.6.3 -> v0.6.4):
   - docs(CHANGELOG): update for 0.6.4
   - Ensure valid messages are returned from FromNet() (#74) ([filecoin-project/go-data-transfer#74](https://github.com/filecoin-project/go-data-transfer/pull/74))
@@ -1008,13 +1008,13 @@ Major release that updates to specs-actors v0.9.7, which also introduces the new
 
 ### Changelog
 
-  - Update to specs-actors v0.9.7 (#396) ([filecoin-project/go-fil-markets#396](https://github.com/filecoin-project/go-fil-markets/pull/396))
-  - Use shared types for exitcode and crypto (#395) ([filecoin-project/go-fil-markets#395](https://github.com/filecoin-project/go-fil-markets/pull/395))
-  - Consume go-state-types (#394) ([filecoin-project/go-fil-markets#394](https://github.com/filecoin-project/go-fil-markets/pull/394))
-  - Convert label JSON to CBOR (#393) ([filecoin-project/go-fil-markets#393](https://github.com/filecoin-project/go-fil-markets/pull/393))
-  - Non blocking retrieval (#392) ([filecoin-project/go-fil-markets#392](https://github.com/filecoin-project/go-fil-markets/pull/392))
-  - fix(storagemarket): fix test hang (#391) ([filecoin-project/go-fil-markets#391](https://github.com/filecoin-project/go-fil-markets/pull/391))
-  - docs(CHANGELOG): update for 0.5.9 release ([filecoin-project/go-fil-markets#390](https://github.com/filecoin-project/go-fil-markets/pull/390))
+  - Update to specs-actors v0.9.7 (#396) ([filecoin-project/go-fil-markets#396](https://github.com/xiaomdong/go-fil-markets/pull/396))
+  - Use shared types for exitcode and crypto (#395) ([filecoin-project/go-fil-markets#395](https://github.com/xiaomdong/go-fil-markets/pull/395))
+  - Consume go-state-types (#394) ([filecoin-project/go-fil-markets#394](https://github.com/xiaomdong/go-fil-markets/pull/394))
+  - Convert label JSON to CBOR (#393) ([filecoin-project/go-fil-markets#393](https://github.com/xiaomdong/go-fil-markets/pull/393))
+  - Non blocking retrieval (#392) ([filecoin-project/go-fil-markets#392](https://github.com/xiaomdong/go-fil-markets/pull/392))
+  - fix(storagemarket): fix test hang (#391) ([filecoin-project/go-fil-markets#391](https://github.com/xiaomdong/go-fil-markets/pull/391))
+  - docs(CHANGELOG): update for 0.5.9 release ([filecoin-project/go-fil-markets#390](https://github.com/xiaomdong/go-fil-markets/pull/390))
 
 Contributors
 
@@ -1030,11 +1030,11 @@ Minor stability release to handle connection drops more gracefully and fix a ret
 
 ### Changelog
 
- - github.com/filecoin-project/go-fil-markets:
-  - Retry with exponential backoff for stream opening (#382) ([filecoin-project/go-fil-markets#382](https://github.com/filecoin-project/go-fil-markets/pull/382))
-  - fix(retrievalmarket): last block on interval works (#388) ([filecoin-project/go-fil-markets#388](https://github.com/filecoin-project/go-fil-markets/pull/388))
-  - Release/v0.5.8 ([filecoin-project/go-fil-markets#386](https://github.com/filecoin-project/go-fil-markets/pull/386))
-  - docs: Add disclaimer to guide people to report issues in Lotus (#384) ([filecoin-project/go-fil-markets#384](https://github.com/filecoin-project/go-fil-markets/pull/384))
+ - github.com/xiaomdong/go-fil-markets:
+  - Retry with exponential backoff for stream opening (#382) ([filecoin-project/go-fil-markets#382](https://github.com/xiaomdong/go-fil-markets/pull/382))
+  - fix(retrievalmarket): last block on interval works (#388) ([filecoin-project/go-fil-markets#388](https://github.com/xiaomdong/go-fil-markets/pull/388))
+  - Release/v0.5.8 ([filecoin-project/go-fil-markets#386](https://github.com/xiaomdong/go-fil-markets/pull/386))
+  - docs: Add disclaimer to guide people to report issues in Lotus (#384) ([filecoin-project/go-fil-markets#384](https://github.com/xiaomdong/go-fil-markets/pull/384))
 
 ### Contributors
 
@@ -1050,11 +1050,11 @@ Minor bug fix release with various small improvements, and memory fixes for Grap
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - fix(deps): update data transfer
-  - fix restart issue with deal transferring (#381) ([filecoin-project/go-fil-markets#381](https://github.com/filecoin-project/go-fil-markets/pull/381))
-  - Plumb deal.PublishCid in HandoffDeal (#383) ([filecoin-project/go-fil-markets#383](https://github.com/filecoin-project/go-fil-markets/pull/383))
-  - docs(CHANGELOG): update for v0.5.7 ([filecoin-project/go-fil-markets#376](https://github.com/filecoin-project/go-fil-markets/pull/376))
+  - fix restart issue with deal transferring (#381) ([filecoin-project/go-fil-markets#381](https://github.com/xiaomdong/go-fil-markets/pull/381))
+  - Plumb deal.PublishCid in HandoffDeal (#383) ([filecoin-project/go-fil-markets#383](https://github.com/xiaomdong/go-fil-markets/pull/383))
+  - docs(CHANGELOG): update for v0.5.7 ([filecoin-project/go-fil-markets#376](https://github.com/xiaomdong/go-fil-markets/pull/376))
 - github.com/filecoin-project/go-data-transfer (v0.6.2 -> v0.6.3):
   - docs(CHANGELOG): update for 0.6.3
   - fix(deps): update graphsync, small cleanup
@@ -1081,9 +1081,9 @@ Minor release with bug fix for retrieval markets
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix(retrievalmarket): fix unseal error hang (#375) ([filecoin-project/go-fil-markets#375](https://github.com/filecoin-project/go-fil-markets/pull/375))
-  - add deal creation time to deals (#373) ([filecoin-project/go-fil-markets#373](https://github.com/filecoin-project/go-fil-markets/pull/373))
+- github.com/xiaomdong/go-fil-markets:
+  - fix(retrievalmarket): fix unseal error hang (#375) ([filecoin-project/go-fil-markets#375](https://github.com/xiaomdong/go-fil-markets/pull/375))
+  - add deal creation time to deals (#373) ([filecoin-project/go-fil-markets#373](https://github.com/xiaomdong/go-fil-markets/pull/373))
 - github.com/filecoin-project/go-data-transfer (v0.6.1 -> v0.6.2):
   - docs(CHANGELOG): update for 0.6.2 release
   - Fix Pull Request Cancelling (#67) ([filecoin-project/go-data-transfer#67](https://github.com/filecoin-project/go-data-transfer/pull/67))
@@ -1103,12 +1103,12 @@ Miner release w/ various bug fixes
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update for v0.5.6 release
-  - feat(requestvalidation): use getsync in validation (#372) ([filecoin-project/go-fil-markets#372](https://github.com/filecoin-project/go-fil-markets/pull/372))
-  - Use collateral from ProposeStorageDealParams (#371) ([filecoin-project/go-fil-markets#371](https://github.com/filecoin-project/go-fil-markets/pull/371))
-  - Fix UML for docs-check (#370) ([filecoin-project/go-fil-markets#370](https://github.com/filecoin-project/go-fil-markets/pull/370))
-  - docs(CHANGELOG): update for 0.5.5 ([filecoin-project/go-fil-markets#368](https://github.com/filecoin-project/go-fil-markets/pull/368))
+  - feat(requestvalidation): use getsync in validation (#372) ([filecoin-project/go-fil-markets#372](https://github.com/xiaomdong/go-fil-markets/pull/372))
+  - Use collateral from ProposeStorageDealParams (#371) ([filecoin-project/go-fil-markets#371](https://github.com/xiaomdong/go-fil-markets/pull/371))
+  - Fix UML for docs-check (#370) ([filecoin-project/go-fil-markets#370](https://github.com/xiaomdong/go-fil-markets/pull/370))
+  - docs(CHANGELOG): update for 0.5.5 ([filecoin-project/go-fil-markets#368](https://github.com/xiaomdong/go-fil-markets/pull/368))
 - github.com/filecoin-project/go-statemachine (v0.0.0-20200730031800-c3336614d2a7 -> v0.0.0-20200813232949-df9b130df370):
   - fix(uml): make just record predictable (#19) ([filecoin-project/go-statemachine#19](https://github.com/filecoin-project/go-statemachine/pull/19))
 
@@ -1126,10 +1126,10 @@ Minor release updates dependencies and adds back in peer tagging
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update data transfer 0.6.1 (#366) ([filecoin-project/go-fil-markets#366](https://github.com/filecoin-project/go-fil-markets/pull/366))
-  - Update specs-actors and cbor-gen (#363) ([filecoin-project/go-fil-markets#363](https://github.com/filecoin-project/go-fil-markets/pull/363))
-  - Add back connection tagging (#362) ([filecoin-project/go-fil-markets#362](https://github.com/filecoin-project/go-fil-markets/pull/362))
+- github.com/xiaomdong/go-fil-markets:
+  - Update data transfer 0.6.1 (#366) ([filecoin-project/go-fil-markets#366](https://github.com/xiaomdong/go-fil-markets/pull/366))
+  - Update specs-actors and cbor-gen (#363) ([filecoin-project/go-fil-markets#363](https://github.com/xiaomdong/go-fil-markets/pull/363))
+  - Add back connection tagging (#362) ([filecoin-project/go-fil-markets#362](https://github.com/xiaomdong/go-fil-markets/pull/362))
 - github.com/filecoin-project/go-data-transfer (v0.5.3 -> v0.6.1):
   - docs(CHANGELOG): update for 0.6.1
   - Update graphsync 0.1.1 (#65) ([filecoin-project/go-data-transfer#65](https://github.com/filecoin-project/go-data-transfer/pull/65))
@@ -1155,9 +1155,9 @@ Minor release to bug fix some multi-addr issues
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Properly add multiaddrs to avoid dialing issues (#356) ([filecoin-project/go-fil-markets#356](https://github.com/filecoin-project/go-fil-markets/pull/356))
-  - docs(CHANGELOG): update for 0.5.3 release ([filecoin-project/go-fil-markets#355](https://github.com/filecoin-project/go-fil-markets/pull/355))
+- github.com/xiaomdong/go-fil-markets:
+  - Properly add multiaddrs to avoid dialing issues (#356) ([filecoin-project/go-fil-markets#356](https://github.com/xiaomdong/go-fil-markets/pull/356))
+  - docs(CHANGELOG): update for 0.5.3 release ([filecoin-project/go-fil-markets#355](https://github.com/xiaomdong/go-fil-markets/pull/355))
 
 ### Contributors
 
@@ -1171,18 +1171,18 @@ Retrieval before seal and improvements to fund management
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update multistore (#353) ([filecoin-project/go-fil-markets#353](https://github.com/filecoin-project/go-fil-markets/pull/353))
-  - feat(storagemarket): add label field to deals (#349) ([filecoin-project/go-fil-markets#349](https://github.com/filecoin-project/go-fil-markets/pull/349))
+- github.com/xiaomdong/go-fil-markets:
+  - Update multistore (#353) ([filecoin-project/go-fil-markets#353](https://github.com/xiaomdong/go-fil-markets/pull/353))
+  - feat(storagemarket): add label field to deals (#349) ([filecoin-project/go-fil-markets#349](https://github.com/xiaomdong/go-fil-markets/pull/349))
   - fix(imports): fix imports issue from previous
-  - retrieval: Drain piece readers (#348) ([filecoin-project/go-fil-markets#348](https://github.com/filecoin-project/go-fil-markets/pull/348))
-  - Adding different prices for verified deals (#347) ([filecoin-project/go-fil-markets#347](https://github.com/filecoin-project/go-fil-markets/pull/347))
-  - update to latest cbor-gen (#346) ([filecoin-project/go-fil-markets#346](https://github.com/filecoin-project/go-fil-markets/pull/346))
+  - retrieval: Drain piece readers (#348) ([filecoin-project/go-fil-markets#348](https://github.com/xiaomdong/go-fil-markets/pull/348))
+  - Adding different prices for verified deals (#347) ([filecoin-project/go-fil-markets#347](https://github.com/xiaomdong/go-fil-markets/pull/347))
+  - update to latest cbor-gen (#346) ([filecoin-project/go-fil-markets#346](https://github.com/xiaomdong/go-fil-markets/pull/346))
   - fix(deps): update data-transfer
-  - Update specs-actors, enforce provider deal collateral bounds (#345) ([filecoin-project/go-fil-markets#345](https://github.com/filecoin-project/go-fil-markets/pull/345))
-  - Feat/retrieve unsealed (#340) ([filecoin-project/go-fil-markets#340](https://github.com/filecoin-project/go-fil-markets/pull/340))
-  - Track deals funding for deals that are being negotiated (#336) ([filecoin-project/go-fil-markets#336](https://github.com/filecoin-project/go-fil-markets/pull/336))
-  - docs(CHANGELOG): update for 0.5.2 release ([filecoin-project/go-fil-markets#344](https://github.com/filecoin-project/go-fil-markets/pull/344))
+  - Update specs-actors, enforce provider deal collateral bounds (#345) ([filecoin-project/go-fil-markets#345](https://github.com/xiaomdong/go-fil-markets/pull/345))
+  - Feat/retrieve unsealed (#340) ([filecoin-project/go-fil-markets#340](https://github.com/xiaomdong/go-fil-markets/pull/340))
+  - Track deals funding for deals that are being negotiated (#336) ([filecoin-project/go-fil-markets#336](https://github.com/xiaomdong/go-fil-markets/pull/336))
+  - docs(CHANGELOG): update for 0.5.2 release ([filecoin-project/go-fil-markets#344](https://github.com/xiaomdong/go-fil-markets/pull/344))
 - github.com/filecoin-project/go-data-transfer (v0.5.1 -> v0.5.3):
   - docs(CHANGELOG): update for 0.5.3 release
   - fix(deps): update graphsync
@@ -1215,10 +1215,10 @@ In this release, we move to managing individual, garbage collected stores for ea
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Unique Blockstores: RetrievalMarket (#342) ([filecoin-project/go-fil-markets#342](https://github.com/filecoin-project/go-fil-markets/pull/342))
-  - Unique blockstores: Storage Market (#341) ([filecoin-project/go-fil-markets#341](https://github.com/filecoin-project/go-fil-markets/pull/341))
-  - docs(CHANGLEOG): update for 0.5.1 ([filecoin-project/go-fil-markets#335](https://github.com/filecoin-project/go-fil-markets/pull/335))
+- github.com/xiaomdong/go-fil-markets:
+  - Unique Blockstores: RetrievalMarket (#342) ([filecoin-project/go-fil-markets#342](https://github.com/xiaomdong/go-fil-markets/pull/342))
+  - Unique blockstores: Storage Market (#341) ([filecoin-project/go-fil-markets#341](https://github.com/xiaomdong/go-fil-markets/pull/341))
+  - docs(CHANGLEOG): update for 0.5.1 ([filecoin-project/go-fil-markets#335](https://github.com/xiaomdong/go-fil-markets/pull/335))
 - github.com/filecoin-project/go-data-transfer (v0.5.0 -> v0.5.1):
   - Allow custom configuration of transports (#57) ([filecoin-project/go-data-transfer#57](https://github.com/filecoin-project/go-data-transfer/pull/57))
 - github.com/ipfs/go-graphsync (v0.0.6-0.20200715204712-ef06b3d32e83 -> v0.0.6-0.20200721211002-c376cbe14c0a):
@@ -1237,14 +1237,14 @@ Minor improvements and bug fixes, retrieval market now supports unseal price
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - fix(queryresponse): set piece retrieval price correctly (#334) ([filecoin-project/go-fil-markets#334](https://github.com/filecoin-project/go-fil-markets/pull/334))
-  - feat(deps): upgrade specs actors to lotus/next sha (#333) ([filecoin-project/go-fil-markets#333](https://github.com/filecoin-project/go-fil-markets/pull/333))
-  - Support retrieval UnsealPrice (#325) (#330) ([filecoin-project/go-fil-markets#330](https://github.com/filecoin-project/go-fil-markets/pull/330))
-  - Cleanup project imports (#327) ([filecoin-project/go-fil-markets#327](https://github.com/filecoin-project/go-fil-markets/pull/327))
-  - Use client address, not default address, to sign proposals (#326) ([filecoin-project/go-fil-markets#326](https://github.com/filecoin-project/go-fil-markets/pull/326))
-  - Remove DealAcceptanceBuffer (#322) ([filecoin-project/go-fil-markets#322](https://github.com/filecoin-project/go-fil-markets/pull/322))
-  - docs(CHANGELOG): update for 0.5.0 release ([filecoin-project/go-fil-markets#324](https://github.com/filecoin-project/go-fil-markets/pull/324))
+- github.com/xiaomdong/go-fil-markets:
+  - fix(queryresponse): set piece retrieval price correctly (#334) ([filecoin-project/go-fil-markets#334](https://github.com/xiaomdong/go-fil-markets/pull/334))
+  - feat(deps): upgrade specs actors to lotus/next sha (#333) ([filecoin-project/go-fil-markets#333](https://github.com/xiaomdong/go-fil-markets/pull/333))
+  - Support retrieval UnsealPrice (#325) (#330) ([filecoin-project/go-fil-markets#330](https://github.com/xiaomdong/go-fil-markets/pull/330))
+  - Cleanup project imports (#327) ([filecoin-project/go-fil-markets#327](https://github.com/xiaomdong/go-fil-markets/pull/327))
+  - Use client address, not default address, to sign proposals (#326) ([filecoin-project/go-fil-markets#326](https://github.com/xiaomdong/go-fil-markets/pull/326))
+  - Remove DealAcceptanceBuffer (#322) ([filecoin-project/go-fil-markets#322](https://github.com/xiaomdong/go-fil-markets/pull/322))
+  - docs(CHANGELOG): update for 0.5.0 release ([filecoin-project/go-fil-markets#324](https://github.com/xiaomdong/go-fil-markets/pull/324))
 - github.com/hannahhoward/cbor-gen-for (v0.0.0-20191218204337-9ab7b1bcc099 -> v0.0.0-20200723175505-5892b522820a):
   - fix(deps): update cbor-gen-to-latest
 
@@ -1263,9 +1263,9 @@ Major release with rewrite of retrieval to operate on top of data transfer proto
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Retrieval on data transfer (#321) ([filecoin-project/go-fil-markets#321](https://github.com/filecoin-project/go-fil-markets/pull/321))
-  - docs(CHANGELOG): update for 0.4.0 ([filecoin-project/go-fil-markets#318](https://github.com/filecoin-project/go-fil-markets/pull/318))
+- github.com/xiaomdong/go-fil-markets:
+  - Retrieval on data transfer (#321) ([filecoin-project/go-fil-markets#321](https://github.com/xiaomdong/go-fil-markets/pull/321))
+  - docs(CHANGELOG): update for 0.4.0 ([filecoin-project/go-fil-markets#318](https://github.com/xiaomdong/go-fil-markets/pull/318))
 - github.com/filecoin-project/go-data-transfer (v0.4.0 -> v0.5.0):
   - Minor fixes for retrieval on data transfer (#56) ([filecoin-project/go-data-transfer#56](https://github.com/filecoin-project/go-data-transfer/pull/56))
 - github.com/filecoin-project/go-statemachine (v0.0.0-20200703171610-a74a697973b9 -> v0.0.0-20200714194326-a77c3ae20989):
@@ -1290,20 +1290,20 @@ Major release with touchups to deal protocol (does not hold open connections), m
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Update to new data transfer (#317) ([filecoin-project/go-fil-markets#317](https://github.com/filecoin-project/go-fil-markets/pull/317))
-  - Add NewQueryV1, which has an optional PieceID param (#313) ([filecoin-project/go-fil-markets#313](https://github.com/filecoin-project/go-fil-markets/pull/313))
-  - Add PieceCid to RetrievalPeer (#312) ([filecoin-project/go-fil-markets#312](https://github.com/filecoin-project/go-fil-markets/pull/312))
-  - add locks around client deals (#315) ([filecoin-project/go-fil-markets#315](https://github.com/filecoin-project/go-fil-markets/pull/315))
+- github.com/xiaomdong/go-fil-markets:
+  - Update to new data transfer (#317) ([filecoin-project/go-fil-markets#317](https://github.com/xiaomdong/go-fil-markets/pull/317))
+  - Add NewQueryV1, which has an optional PieceID param (#313) ([filecoin-project/go-fil-markets#313](https://github.com/xiaomdong/go-fil-markets/pull/313))
+  - Add PieceCid to RetrievalPeer (#312) ([filecoin-project/go-fil-markets#312](https://github.com/xiaomdong/go-fil-markets/pull/312))
+  - add locks around client deals (#315) ([filecoin-project/go-fil-markets#315](https://github.com/xiaomdong/go-fil-markets/pull/315))
   - Merge branch 'release/v0.3.1.1'
-  - add locks protecting retrieval market maps (#311) ([filecoin-project/go-fil-markets#311](https://github.com/filecoin-project/go-fil-markets/pull/311))
-  - Fix/make streams context aware (#308) ([filecoin-project/go-fil-markets#308](https://github.com/filecoin-project/go-fil-markets/pull/308))
-  - Reject deals based on verifreg.DataCap for client (#307) ([filecoin-project/go-fil-markets#307](https://github.com/filecoin-project/go-fil-markets/pull/307))
-  - fix(storagemarket): run deal restarts in go routine (#309) ([filecoin-project/go-fil-markets#309](https://github.com/filecoin-project/go-fil-markets/pull/309))
-  - StorageProvider records Slashed Or Expired Deals (#306) ([filecoin-project/go-fil-markets#306](https://github.com/filecoin-project/go-fil-markets/pull/306))
-  - Fast retrieval support (#305) ([filecoin-project/go-fil-markets#305](https://github.com/filecoin-project/go-fil-markets/pull/305))
-  - Clients can create verified deals (#304) ([filecoin-project/go-fil-markets#304](https://github.com/filecoin-project/go-fil-markets/pull/304))
-  - Use Query Protocol in storage deal negotiation (#297) ([filecoin-project/go-fil-markets#297](https://github.com/filecoin-project/go-fil-markets/pull/297))
+  - add locks protecting retrieval market maps (#311) ([filecoin-project/go-fil-markets#311](https://github.com/xiaomdong/go-fil-markets/pull/311))
+  - Fix/make streams context aware (#308) ([filecoin-project/go-fil-markets#308](https://github.com/xiaomdong/go-fil-markets/pull/308))
+  - Reject deals based on verifreg.DataCap for client (#307) ([filecoin-project/go-fil-markets#307](https://github.com/xiaomdong/go-fil-markets/pull/307))
+  - fix(storagemarket): run deal restarts in go routine (#309) ([filecoin-project/go-fil-markets#309](https://github.com/xiaomdong/go-fil-markets/pull/309))
+  - StorageProvider records Slashed Or Expired Deals (#306) ([filecoin-project/go-fil-markets#306](https://github.com/xiaomdong/go-fil-markets/pull/306))
+  - Fast retrieval support (#305) ([filecoin-project/go-fil-markets#305](https://github.com/xiaomdong/go-fil-markets/pull/305))
+  - Clients can create verified deals (#304) ([filecoin-project/go-fil-markets#304](https://github.com/xiaomdong/go-fil-markets/pull/304))
+  - Use Query Protocol in storage deal negotiation (#297) ([filecoin-project/go-fil-markets#297](https://github.com/xiaomdong/go-fil-markets/pull/297))
 - github.com/filecoin-project/go-data-transfer (v0.3.0 -> v0.4.0):
   - The new data transfer (#55) ([filecoin-project/go-data-transfer#55](https://github.com/filecoin-project/go-data-transfer/pull/55))
   - Actually track progress for send/receive (#53) ([filecoin-project/go-data-transfer#53](https://github.com/filecoin-project/go-data-transfer/pull/53))
@@ -1332,9 +1332,9 @@ Hotfix bug release to address critical issues affecting node startup
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - add locks protecting retrieval market maps (#311) ([filecoin-project/go-fil-markets#311](https://github.com/filecoin-project/go-fil-markets/pull/311))
-  - fix(storagemarket): run deal restarts in go routine (#309) ([filecoin-project/go-fil-markets#309](https://github.com/filecoin-project/go-fil-markets/pull/309))
+- github.com/xiaomdong/go-fil-markets:
+  - add locks protecting retrieval market maps (#311) ([filecoin-project/go-fil-markets#311](https://github.com/xiaomdong/go-fil-markets/pull/311))
+  - fix(storagemarket): run deal restarts in go routine (#309) ([filecoin-project/go-fil-markets#309](https://github.com/xiaomdong/go-fil-markets/pull/309))
 
 ### Contributors
 
@@ -1349,8 +1349,8 @@ Hotfix release to get `use addresses from miner info for connecting to miners` t
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - use addresses from miner info for connecting to miners (#290) ([filecoin-project/go-fil-markets#290](https://github.com/filecoin-project/go-fil-markets/pull/290))
+- github.com/xiaomdong/go-fil-markets:
+  - use addresses from miner info for connecting to miners (#290) ([filecoin-project/go-fil-markets#290](https://github.com/xiaomdong/go-fil-markets/pull/290))
 
 ### Contributors
 
@@ -1363,17 +1363,17 @@ Hotfix release to get `use addresses from miner info for connecting to miners` t
 Deal Resumability release. We now attempt to resume storage deals when the application is shut down and restart, and we support a more flexible deal acceptance protocol.
 
 ### Changelog
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - fix(storagemarket): fix validator, add to test
   - docs(CHANGELOG): update changelog and add detail script
-  - both StoredAsk and storage Provider are scoped to a single miner (#276) ([filecoin-project/go-fil-markets#276](https://github.com/filecoin-project/go-fil-markets/pull/276))
-  - specs actors v0.6 (#274) ([filecoin-project/go-fil-markets#274](https://github.com/filecoin-project/go-fil-markets/pull/274))
-  - Restartable storage deals (#270) ([filecoin-project/go-fil-markets#270](https://github.com/filecoin-project/go-fil-markets/pull/270))
-  - replace AddAsk with SetAsk, to convey intent (#275) ([filecoin-project/go-fil-markets#275](https://github.com/filecoin-project/go-fil-markets/pull/275))
-  - Allow custom decisioning for a provider to decide retrieval deals. (#269) ([filecoin-project/go-fil-markets#269](https://github.com/filecoin-project/go-fil-markets/pull/269))
-  - Feat/module docs #83 (#267) ([filecoin-project/go-fil-markets#267](https://github.com/filecoin-project/go-fil-markets/pull/267))
-  - Tentative acceptance protocol (#244) ([filecoin-project/go-fil-markets#244](https://github.com/filecoin-project/go-fil-markets/pull/244))
-  - docs(CHANGELOG): update changelog for 0.2.7 ([filecoin-project/go-fil-markets#264](https://github.com/filecoin-project/go-fil-markets/pull/264))
+  - both StoredAsk and storage Provider are scoped to a single miner (#276) ([filecoin-project/go-fil-markets#276](https://github.com/xiaomdong/go-fil-markets/pull/276))
+  - specs actors v0.6 (#274) ([filecoin-project/go-fil-markets#274](https://github.com/xiaomdong/go-fil-markets/pull/274))
+  - Restartable storage deals (#270) ([filecoin-project/go-fil-markets#270](https://github.com/xiaomdong/go-fil-markets/pull/270))
+  - replace AddAsk with SetAsk, to convey intent (#275) ([filecoin-project/go-fil-markets#275](https://github.com/xiaomdong/go-fil-markets/pull/275))
+  - Allow custom decisioning for a provider to decide retrieval deals. (#269) ([filecoin-project/go-fil-markets#269](https://github.com/xiaomdong/go-fil-markets/pull/269))
+  - Feat/module docs #83 (#267) ([filecoin-project/go-fil-markets#267](https://github.com/xiaomdong/go-fil-markets/pull/267))
+  - Tentative acceptance protocol (#244) ([filecoin-project/go-fil-markets#244](https://github.com/xiaomdong/go-fil-markets/pull/244))
+  - docs(CHANGELOG): update changelog for 0.2.7 ([filecoin-project/go-fil-markets#264](https://github.com/xiaomdong/go-fil-markets/pull/264))
 - github.com/filecoin-project/go-statemachine (v0.0.0-20200226041606-2074af6d51d9 -> v0.0.0-20200612181802-4eb3d0c68eba):
   - Serialize notifications (#11) ([filecoin-project/go-statemachine#11](https://github.com/filecoin-project/go-statemachine/pull/11))
   - Run callback in goroutine (#10) ([filecoin-project/go-statemachine#10](https://github.com/filecoin-project/go-statemachine/pull/10))
@@ -1398,10 +1398,10 @@ Custom Deal Decision Logic and cleanups of 0.2.6
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update changelog for 0.2.7
-  - refactor(storagemarket): remove storedask from provider (#263) ([filecoin-project/go-fil-markets#263](https://github.com/filecoin-project/go-fil-markets/pull/263))
-  - Deal Decision Custom Function (#262) ([filecoin-project/go-fil-markets#262](https://github.com/filecoin-project/go-fil-markets/pull/262))
+  - refactor(storagemarket): remove storedask from provider (#263) ([filecoin-project/go-fil-markets#263](https://github.com/xiaomdong/go-fil-markets/pull/263))
+  - Deal Decision Custom Function (#262) ([filecoin-project/go-fil-markets#262](https://github.com/xiaomdong/go-fil-markets/pull/262))
 
 ### Contributors
 
@@ -1416,9 +1416,9 @@ Remove data store wrapping
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - Feat/change prefixes 256 (#257) ([filecoin-project/go-fil-markets#257](https://github.com/filecoin-project/go-fil-markets/pull/257))
-  - docs(CHANGELOG): update for 0.2.5 release ([filecoin-project/go-fil-markets#254](https://github.com/filecoin-project/go-fil-markets/pull/254))
+- github.com/xiaomdong/go-fil-markets:
+  - Feat/change prefixes 256 (#257) ([filecoin-project/go-fil-markets#257](https://github.com/xiaomdong/go-fil-markets/pull/257))
+  - docs(CHANGELOG): update for 0.2.5 release ([filecoin-project/go-fil-markets#254](https://github.com/xiaomdong/go-fil-markets/pull/254))
 
 ### Contributors
 
@@ -1432,10 +1432,10 @@ go-filecoin compatibility release
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update for 0.2.5 release
-  - Fixes from filecoin integration work (#253) ([filecoin-project/go-fil-markets#253](https://github.com/filecoin-project/go-fil-markets/pull/253))
-  - docs(CHANGELOG): update change log ([filecoin-project/go-fil-markets#250](https://github.com/filecoin-project/go-fil-markets/pull/250))
+  - Fixes from filecoin integration work (#253) ([filecoin-project/go-fil-markets#253](https://github.com/xiaomdong/go-fil-markets/pull/253))
+  - docs(CHANGELOG): update change log ([filecoin-project/go-fil-markets#250](https://github.com/xiaomdong/go-fil-markets/pull/250))
 
 ### Contributors
 
@@ -1450,11 +1450,11 @@ go-filecoin compatibility release
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update change log
-  - Buffer the done channel when adding storage collateral (#249) ([filecoin-project/go-fil-markets#249](https://github.com/filecoin-project/go-fil-markets/pull/249))
-  - feat(CHANGELOG): update changelog for v0.2.3 ([filecoin-project/go-fil-markets#248](https://github.com/filecoin-project/go-fil-markets/pull/248))
-  - Unified request validator (#247) ([filecoin-project/go-fil-markets#247](https://github.com/filecoin-project/go-fil-markets/pull/247))
+  - Buffer the done channel when adding storage collateral (#249) ([filecoin-project/go-fil-markets#249](https://github.com/xiaomdong/go-fil-markets/pull/249))
+  - feat(CHANGELOG): update changelog for v0.2.3 ([filecoin-project/go-fil-markets#248](https://github.com/xiaomdong/go-fil-markets/pull/248))
+  - Unified request validator (#247) ([filecoin-project/go-fil-markets#247](https://github.com/xiaomdong/go-fil-markets/pull/247))
 
 ### Contributors
 
@@ -1469,10 +1469,10 @@ Hotfix release -- final fix for issues with deal streams held open
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - feat(CHANGELOG): update changelog for v0.2.3
-  - feat(network): tag connections to preserve them (#246) ([filecoin-project/go-fil-markets#246](https://github.com/filecoin-project/go-fil-markets/pull/246))
-  - docs(CHANGELOG): docs for 0.2.2 release ([filecoin-project/go-fil-markets#243](https://github.com/filecoin-project/go-fil-markets/pull/243))
+  - feat(network): tag connections to preserve them (#246) ([filecoin-project/go-fil-markets#246](https://github.com/xiaomdong/go-fil-markets/pull/246))
+  - docs(CHANGELOG): docs for 0.2.2 release ([filecoin-project/go-fil-markets#243](https://github.com/xiaomdong/go-fil-markets/pull/243))
 
 ### Contributors
 
@@ -1487,12 +1487,12 @@ Hotfix release -- updates to try to solve deal stream problems attempt #2 & v26 
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): docs for 0.2.2 release
-  - feat(storagemarket): revert protocol changes (#236) ([filecoin-project/go-fil-markets#236](https://github.com/filecoin-project/go-fil-markets/pull/236))
-  - Feat/cbor gen check ci #231 (#234) ([filecoin-project/go-fil-markets#234](https://github.com/filecoin-project/go-fil-markets/pull/234))
-  - update sector-storage and break transitive dependency on lotus (#235) ([filecoin-project/go-fil-markets#235](https://github.com/filecoin-project/go-fil-markets/pull/235))
-  - docs(CHANGELOG): update for 0.2.1 release ([filecoin-project/go-fil-markets#233](https://github.com/filecoin-project/go-fil-markets/pull/233))
+  - feat(storagemarket): revert protocol changes (#236) ([filecoin-project/go-fil-markets#236](https://github.com/xiaomdong/go-fil-markets/pull/236))
+  - Feat/cbor gen check ci #231 (#234) ([filecoin-project/go-fil-markets#234](https://github.com/xiaomdong/go-fil-markets/pull/234))
+  - update sector-storage and break transitive dependency on lotus (#235) ([filecoin-project/go-fil-markets#235](https://github.com/xiaomdong/go-fil-markets/pull/235))
+  - docs(CHANGELOG): update for 0.2.1 release ([filecoin-project/go-fil-markets#233](https://github.com/xiaomdong/go-fil-markets/pull/233))
 
 ### Contributors
 
@@ -1508,14 +1508,14 @@ Hotfix release -- updates to try to solve deal stream problems attempt #2 & v26 
 Hotfix release -- updates to try to solve deal stream problems attempt #1
 
 ### Changelog
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update for 0.2.1 release
-  - update to v26 proofs (#232) ([filecoin-project/go-fil-markets#232](https://github.com/filecoin-project/go-fil-markets/pull/232))
-  - Don't Keep Streams Open (#230) ([filecoin-project/go-fil-markets#230](https://github.com/filecoin-project/go-fil-markets/pull/230))
-  - Round-trip storage/retrieval test (#229) ([filecoin-project/go-fil-markets#229](https://github.com/filecoin-project/go-fil-markets/pull/229))
-  - feat(storagemarket): improve human readable constant maps (#228) ([filecoin-project/go-fil-markets#228](https://github.com/filecoin-project/go-fil-markets/pull/228))
-  - fix(deps): update data-transfer 0.3.0 (#227) ([filecoin-project/go-fil-markets#227](https://github.com/filecoin-project/go-fil-markets/pull/227))
-  - docs(CHANGELOG): update changelog for 0.2.0 release ([filecoin-project/go-fil-markets#226](https://github.com/filecoin-project/go-fil-markets/pull/226))
+  - update to v26 proofs (#232) ([filecoin-project/go-fil-markets#232](https://github.com/xiaomdong/go-fil-markets/pull/232))
+  - Don't Keep Streams Open (#230) ([filecoin-project/go-fil-markets#230](https://github.com/xiaomdong/go-fil-markets/pull/230))
+  - Round-trip storage/retrieval test (#229) ([filecoin-project/go-fil-markets#229](https://github.com/xiaomdong/go-fil-markets/pull/229))
+  - feat(storagemarket): improve human readable constant maps (#228) ([filecoin-project/go-fil-markets#228](https://github.com/xiaomdong/go-fil-markets/pull/228))
+  - fix(deps): update data-transfer 0.3.0 (#227) ([filecoin-project/go-fil-markets#227](https://github.com/xiaomdong/go-fil-markets/pull/227))
+  - docs(CHANGELOG): update changelog for 0.2.0 release ([filecoin-project/go-fil-markets#226](https://github.com/xiaomdong/go-fil-markets/pull/226))
 - github.com/filecoin-project/go-data-transfer (v0.2.1 -> v0.3.0):
   - feat(graphsyncimpl): fix open/close events (#52) ([filecoin-project/go-data-transfer#52](https://github.com/filecoin-project/go-data-transfer/pull/52))
   - chore(deps): update graphsync ([filecoin-project/go-data-transfer#51](https://github.com/filecoin-project/go-data-transfer/pull/51))
@@ -1536,15 +1536,15 @@ Asynchronous operations release -- we no longer synchronously wait for chain mes
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update changelog for 0.2.0 release
-  - Storage Market Changes Based On Lotus Integration (#223) ([filecoin-project/go-fil-markets#223](https://github.com/filecoin-project/go-fil-markets/pull/223))
-  - Merge in hotfix 0.1.3 ([filecoin-project/go-fil-markets#225](https://github.com/filecoin-project/go-fil-markets/pull/225))
-  - ppl can sub to storage client evts (#217) ([filecoin-project/go-fil-markets#217](https://github.com/filecoin-project/go-fil-markets/pull/217))
-  - fix(storagemarket): set miner peer id on deals (#216) ([filecoin-project/go-fil-markets#216](https://github.com/filecoin-project/go-fil-markets/pull/216))
+  - Storage Market Changes Based On Lotus Integration (#223) ([filecoin-project/go-fil-markets#223](https://github.com/xiaomdong/go-fil-markets/pull/223))
+  - Merge in hotfix 0.1.3 ([filecoin-project/go-fil-markets#225](https://github.com/xiaomdong/go-fil-markets/pull/225))
+  - ppl can sub to storage client evts (#217) ([filecoin-project/go-fil-markets#217](https://github.com/xiaomdong/go-fil-markets/pull/217))
+  - fix(storagemarket): set miner peer id on deals (#216) ([filecoin-project/go-fil-markets#216](https://github.com/xiaomdong/go-fil-markets/pull/216))
   - chore(release): merge hotfix 0.1.2 branch back
-  - docs(release): update release process (#212) ([filecoin-project/go-fil-markets#212](https://github.com/filecoin-project/go-fil-markets/pull/212))
-  - Nonblocking storage deals [#80] (#194) ([filecoin-project/go-fil-markets#194](https://github.com/filecoin-project/go-fil-markets/pull/194))
+  - docs(release): update release process (#212) ([filecoin-project/go-fil-markets#212](https://github.com/xiaomdong/go-fil-markets/pull/212))
+  - Nonblocking storage deals [#80] (#194) ([filecoin-project/go-fil-markets#194](https://github.com/xiaomdong/go-fil-markets/pull/194))
 
 ### Contributors
 
@@ -1561,7 +1561,7 @@ Hotfix release for critical graphsync bug fix
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): add release documentation
   - fix(deps): update to tagged data transfer
   - chore(deps): update data transfer + graphsync
@@ -1585,9 +1585,9 @@ Hotfix release for transitive dependencies to use new go-ipld-prime
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - docs(CHANGELOG): update changelog
-  - Upgrade IPLD-prime to latest (#215) ([filecoin-project/go-fil-markets#215](https://github.com/filecoin-project/go-fil-markets/pull/215))
+  - Upgrade IPLD-prime to latest (#215) ([filecoin-project/go-fil-markets#215](https://github.com/xiaomdong/go-fil-markets/pull/215))
 - github.com/filecoin-project/go-data-transfer (v0.0.0-20200408061858-82c58b423ca6 -> v0.2.0):
   - Upgrade graphsync + ipld-prime (#49) ([filecoin-project/go-data-transfer#49](https://github.com/filecoin-project/go-data-transfer/pull/49))
   - Use extracted generic pubsub (#48) ([filecoin-project/go-data-transfer#48](https://github.com/filecoin-project/go-data-transfer/pull/48))
@@ -1617,9 +1617,9 @@ Hotfix release for spec actors update
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
+- github.com/xiaomdong/go-fil-markets:
   - chore(changelog): update changelog for tagged release
-  - Upgrade to specs-actors v0.3.0 (#207) ([filecoin-project/go-fil-markets#207](https://github.com/filecoin-project/go-fil-markets/pull/207))
+  - Upgrade to specs-actors v0.3.0 (#207) ([filecoin-project/go-fil-markets#207](https://github.com/xiaomdong/go-fil-markets/pull/207))
 
 ### Contributors
 
@@ -1634,109 +1634,109 @@ Initial tagged release for Filecoin Testnet Phase 2
 
 ### Changelog
 
-- github.com/filecoin-project/go-fil-markets:
-  - docs(release): document release process (#206) ([filecoin-project/go-fil-markets#206](https://github.com/filecoin-project/go-fil-markets/pull/206))
-  - update types_cbor_gen (#203) ([filecoin-project/go-fil-markets#203](https://github.com/filecoin-project/go-fil-markets/pull/203))
-  - Upgrade to specs-actors v0.2.0 (#204) ([filecoin-project/go-fil-markets#204](https://github.com/filecoin-project/go-fil-markets/pull/204))
-  - Storagemarket/provider allows subscription to events (#202) ([filecoin-project/go-fil-markets#202](https://github.com/filecoin-project/go-fil-markets/pull/202))
-  - Add a test rule to Makefile, use in CI config (#200) ([filecoin-project/go-fil-markets#200](https://github.com/filecoin-project/go-fil-markets/pull/200))
-  - Update to specs-actors v1.0.0 (#198) ([filecoin-project/go-fil-markets#198](https://github.com/filecoin-project/go-fil-markets/pull/198))
-  - add multiple peers per payloadCID (#197) ([filecoin-project/go-fil-markets#197](https://github.com/filecoin-project/go-fil-markets/pull/197))
-  - refactor(storedcounter): use extracted package (#196) ([filecoin-project/go-fil-markets#196](https://github.com/filecoin-project/go-fil-markets/pull/196))
-  - Feat/no block chain ops (#190) ([filecoin-project/go-fil-markets#190](https://github.com/filecoin-project/go-fil-markets/pull/190))
-  - Add a max piece size to storage asks (#188) ([filecoin-project/go-fil-markets#188](https://github.com/filecoin-project/go-fil-markets/pull/188))
-  - Update proofs to v25 params (#189) ([filecoin-project/go-fil-markets#189](https://github.com/filecoin-project/go-fil-markets/pull/189))
-  - Update Graphsync (#184) ([filecoin-project/go-fil-markets#184](https://github.com/filecoin-project/go-fil-markets/pull/184))
-  - Support selectors on retrieval (#187) ([filecoin-project/go-fil-markets#187](https://github.com/filecoin-project/go-fil-markets/pull/187))
-  - Add optional PieceCID to block unsealing (#186) ([filecoin-project/go-fil-markets#186](https://github.com/filecoin-project/go-fil-markets/pull/186))
-  - Add Selector to retrieval params (#175) ([filecoin-project/go-fil-markets#175](https://github.com/filecoin-project/go-fil-markets/pull/175))
-  - use PieceCID if provided in QueryParams (#181) ([filecoin-project/go-fil-markets#181](https://github.com/filecoin-project/go-fil-markets/pull/181))
-  - include rejection reason in client response (#182) ([filecoin-project/go-fil-markets#182](https://github.com/filecoin-project/go-fil-markets/pull/182))
-  - Do not create CAR file when propsing a storage deal using Manual Transfer (#183) ([filecoin-project/go-fil-markets#183](https://github.com/filecoin-project/go-fil-markets/pull/183))
-  - add selector to BlockIO classes (#178) ([filecoin-project/go-fil-markets#178](https://github.com/filecoin-project/go-fil-markets/pull/178))
-  - rename list deals interface & impls (#174) ([filecoin-project/go-fil-markets#174](https://github.com/filecoin-project/go-fil-markets/pull/174))
-  - Feat/configure start epoch buffer (#171) ([filecoin-project/go-fil-markets#171](https://github.com/filecoin-project/go-fil-markets/pull/171))
-  - send tipset identifier to node when interacting with chain (#172) ([filecoin-project/go-fil-markets#172](https://github.com/filecoin-project/go-fil-markets/pull/172))
-  - Support Retrieval By Any CID, Not Just Root (#166) ([filecoin-project/go-fil-markets#166](https://github.com/filecoin-project/go-fil-markets/pull/166))
-  - v24 groth parameters (#167) ([filecoin-project/go-fil-markets#167](https://github.com/filecoin-project/go-fil-markets/pull/167))
-  - Add TipSetToken to SavePaymentVoucher (#165) ([filecoin-project/go-fil-markets#165](https://github.com/filecoin-project/go-fil-markets/pull/165))
-  - retrieval client node interface passes tipset identifier to node (#164) ([filecoin-project/go-fil-markets#164](https://github.com/filecoin-project/go-fil-markets/pull/164))
-  - send state identifiery when getting miner worker address (#153) ([filecoin-project/go-fil-markets#153](https://github.com/filecoin-project/go-fil-markets/pull/153))
-  - chore(deps): update to ipld/go-car (#152) ([filecoin-project/go-fil-markets#152](https://github.com/filecoin-project/go-fil-markets/pull/152))
-  - add TipSet identity-producing method to various Node interfaces (#149) ([filecoin-project/go-fil-markets#149](https://github.com/filecoin-project/go-fil-markets/pull/149))
-  - conform imports to schema defined in CONTRIBUTING.md (#150) ([filecoin-project/go-fil-markets#150](https://github.com/filecoin-project/go-fil-markets/pull/150))
-  - Refactor Storage Provider to FSM Module (#145) ([filecoin-project/go-fil-markets#145](https://github.com/filecoin-project/go-fil-markets/pull/145))
-  - Feat/update to fix 32gib verification (#147) ([filecoin-project/go-fil-markets#147](https://github.com/filecoin-project/go-fil-markets/pull/147))
+- github.com/xiaomdong/go-fil-markets:
+  - docs(release): document release process (#206) ([filecoin-project/go-fil-markets#206](https://github.com/xiaomdong/go-fil-markets/pull/206))
+  - update types_cbor_gen (#203) ([filecoin-project/go-fil-markets#203](https://github.com/xiaomdong/go-fil-markets/pull/203))
+  - Upgrade to specs-actors v0.2.0 (#204) ([filecoin-project/go-fil-markets#204](https://github.com/xiaomdong/go-fil-markets/pull/204))
+  - Storagemarket/provider allows subscription to events (#202) ([filecoin-project/go-fil-markets#202](https://github.com/xiaomdong/go-fil-markets/pull/202))
+  - Add a test rule to Makefile, use in CI config (#200) ([filecoin-project/go-fil-markets#200](https://github.com/xiaomdong/go-fil-markets/pull/200))
+  - Update to specs-actors v1.0.0 (#198) ([filecoin-project/go-fil-markets#198](https://github.com/xiaomdong/go-fil-markets/pull/198))
+  - add multiple peers per payloadCID (#197) ([filecoin-project/go-fil-markets#197](https://github.com/xiaomdong/go-fil-markets/pull/197))
+  - refactor(storedcounter): use extracted package (#196) ([filecoin-project/go-fil-markets#196](https://github.com/xiaomdong/go-fil-markets/pull/196))
+  - Feat/no block chain ops (#190) ([filecoin-project/go-fil-markets#190](https://github.com/xiaomdong/go-fil-markets/pull/190))
+  - Add a max piece size to storage asks (#188) ([filecoin-project/go-fil-markets#188](https://github.com/xiaomdong/go-fil-markets/pull/188))
+  - Update proofs to v25 params (#189) ([filecoin-project/go-fil-markets#189](https://github.com/xiaomdong/go-fil-markets/pull/189))
+  - Update Graphsync (#184) ([filecoin-project/go-fil-markets#184](https://github.com/xiaomdong/go-fil-markets/pull/184))
+  - Support selectors on retrieval (#187) ([filecoin-project/go-fil-markets#187](https://github.com/xiaomdong/go-fil-markets/pull/187))
+  - Add optional PieceCID to block unsealing (#186) ([filecoin-project/go-fil-markets#186](https://github.com/xiaomdong/go-fil-markets/pull/186))
+  - Add Selector to retrieval params (#175) ([filecoin-project/go-fil-markets#175](https://github.com/xiaomdong/go-fil-markets/pull/175))
+  - use PieceCID if provided in QueryParams (#181) ([filecoin-project/go-fil-markets#181](https://github.com/xiaomdong/go-fil-markets/pull/181))
+  - include rejection reason in client response (#182) ([filecoin-project/go-fil-markets#182](https://github.com/xiaomdong/go-fil-markets/pull/182))
+  - Do not create CAR file when propsing a storage deal using Manual Transfer (#183) ([filecoin-project/go-fil-markets#183](https://github.com/xiaomdong/go-fil-markets/pull/183))
+  - add selector to BlockIO classes (#178) ([filecoin-project/go-fil-markets#178](https://github.com/xiaomdong/go-fil-markets/pull/178))
+  - rename list deals interface & impls (#174) ([filecoin-project/go-fil-markets#174](https://github.com/xiaomdong/go-fil-markets/pull/174))
+  - Feat/configure start epoch buffer (#171) ([filecoin-project/go-fil-markets#171](https://github.com/xiaomdong/go-fil-markets/pull/171))
+  - send tipset identifier to node when interacting with chain (#172) ([filecoin-project/go-fil-markets#172](https://github.com/xiaomdong/go-fil-markets/pull/172))
+  - Support Retrieval By Any CID, Not Just Root (#166) ([filecoin-project/go-fil-markets#166](https://github.com/xiaomdong/go-fil-markets/pull/166))
+  - v24 groth parameters (#167) ([filecoin-project/go-fil-markets#167](https://github.com/xiaomdong/go-fil-markets/pull/167))
+  - Add TipSetToken to SavePaymentVoucher (#165) ([filecoin-project/go-fil-markets#165](https://github.com/xiaomdong/go-fil-markets/pull/165))
+  - retrieval client node interface passes tipset identifier to node (#164) ([filecoin-project/go-fil-markets#164](https://github.com/xiaomdong/go-fil-markets/pull/164))
+  - send state identifiery when getting miner worker address (#153) ([filecoin-project/go-fil-markets#153](https://github.com/xiaomdong/go-fil-markets/pull/153))
+  - chore(deps): update to ipld/go-car (#152) ([filecoin-project/go-fil-markets#152](https://github.com/xiaomdong/go-fil-markets/pull/152))
+  - add TipSet identity-producing method to various Node interfaces (#149) ([filecoin-project/go-fil-markets#149](https://github.com/xiaomdong/go-fil-markets/pull/149))
+  - conform imports to schema defined in CONTRIBUTING.md (#150) ([filecoin-project/go-fil-markets#150](https://github.com/xiaomdong/go-fil-markets/pull/150))
+  - Refactor Storage Provider to FSM Module (#145) ([filecoin-project/go-fil-markets#145](https://github.com/xiaomdong/go-fil-markets/pull/145))
+  - Feat/update to fix 32gib verification (#147) ([filecoin-project/go-fil-markets#147](https://github.com/xiaomdong/go-fil-markets/pull/147))
   - ci(codecov): remove cbor gen files from coverage
-  - ci(codecov): ignore cbor gen files (#146) ([filecoin-project/go-fil-markets#146](https://github.com/filecoin-project/go-fil-markets/pull/146))
-  - Storage Client Statemachine Refactor (#136) ([filecoin-project/go-fil-markets#136](https://github.com/filecoin-project/go-fil-markets/pull/136))
-  - upgrade to libfilecoin version that supports cache clearing (#138) ([filecoin-project/go-fil-markets#138](https://github.com/filecoin-project/go-fil-markets/pull/138))
-  - fix(cborgen): update cbor gen for dataref (#137) ([filecoin-project/go-fil-markets#137](https://github.com/filecoin-project/go-fil-markets/pull/137))
-  - allow manual piece commitment (#135) ([filecoin-project/go-fil-markets#135](https://github.com/filecoin-project/go-fil-markets/pull/135))
-  - fix(retrievalmarket): handle self-retrieval correctly (#134) ([filecoin-project/go-fil-markets#134](https://github.com/filecoin-project/go-fil-markets/pull/134))
-  - feat(retrievalmarket): support wallet address (#130) ([filecoin-project/go-fil-markets#130](https://github.com/filecoin-project/go-fil-markets/pull/130))
-  - allow specification of 'wallet' for ensure funds calls (#129) ([filecoin-project/go-fil-markets#129](https://github.com/filecoin-project/go-fil-markets/pull/129))
-  - update to filecoin-ffi with shared types (#127) ([filecoin-project/go-fil-markets#127](https://github.com/filecoin-project/go-fil-markets/pull/127))
-  - feat(sharedcounter): persist counter to disk (#125) ([filecoin-project/go-fil-markets#125](https://github.com/filecoin-project/go-fil-markets/pull/125))
-  - Use go-statemachine + FSMs in retrieval market (#124) ([filecoin-project/go-fil-markets#124](https://github.com/filecoin-project/go-fil-markets/pull/124))
-  - storage client: Call EnsureFunds more correctly (#123) ([filecoin-project/go-fil-markets#123](https://github.com/filecoin-project/go-fil-markets/pull/123))
-  - use latest specs-actors with uint64 lane and nonce from paych.Actor (#122) ([filecoin-project/go-fil-markets#122](https://github.com/filecoin-project/go-fil-markets/pull/122))
-  - Update go-sectorbuilder to latest that uses specs-actors types (#121) ([filecoin-project/go-fil-markets#121](https://github.com/filecoin-project/go-fil-markets/pull/121))
-  - Import spec actor types (#118) ([filecoin-project/go-fil-markets#118](https://github.com/filecoin-project/go-fil-markets/pull/118))
-  - Update README (#120) ([filecoin-project/go-fil-markets#120](https://github.com/filecoin-project/go-fil-markets/pull/120))
+  - ci(codecov): ignore cbor gen files (#146) ([filecoin-project/go-fil-markets#146](https://github.com/xiaomdong/go-fil-markets/pull/146))
+  - Storage Client Statemachine Refactor (#136) ([filecoin-project/go-fil-markets#136](https://github.com/xiaomdong/go-fil-markets/pull/136))
+  - upgrade to libfilecoin version that supports cache clearing (#138) ([filecoin-project/go-fil-markets#138](https://github.com/xiaomdong/go-fil-markets/pull/138))
+  - fix(cborgen): update cbor gen for dataref (#137) ([filecoin-project/go-fil-markets#137](https://github.com/xiaomdong/go-fil-markets/pull/137))
+  - allow manual piece commitment (#135) ([filecoin-project/go-fil-markets#135](https://github.com/xiaomdong/go-fil-markets/pull/135))
+  - fix(retrievalmarket): handle self-retrieval correctly (#134) ([filecoin-project/go-fil-markets#134](https://github.com/xiaomdong/go-fil-markets/pull/134))
+  - feat(retrievalmarket): support wallet address (#130) ([filecoin-project/go-fil-markets#130](https://github.com/xiaomdong/go-fil-markets/pull/130))
+  - allow specification of 'wallet' for ensure funds calls (#129) ([filecoin-project/go-fil-markets#129](https://github.com/xiaomdong/go-fil-markets/pull/129))
+  - update to filecoin-ffi with shared types (#127) ([filecoin-project/go-fil-markets#127](https://github.com/xiaomdong/go-fil-markets/pull/127))
+  - feat(sharedcounter): persist counter to disk (#125) ([filecoin-project/go-fil-markets#125](https://github.com/xiaomdong/go-fil-markets/pull/125))
+  - Use go-statemachine + FSMs in retrieval market (#124) ([filecoin-project/go-fil-markets#124](https://github.com/xiaomdong/go-fil-markets/pull/124))
+  - storage client: Call EnsureFunds more correctly (#123) ([filecoin-project/go-fil-markets#123](https://github.com/xiaomdong/go-fil-markets/pull/123))
+  - use latest specs-actors with uint64 lane and nonce from paych.Actor (#122) ([filecoin-project/go-fil-markets#122](https://github.com/xiaomdong/go-fil-markets/pull/122))
+  - Update go-sectorbuilder to latest that uses specs-actors types (#121) ([filecoin-project/go-fil-markets#121](https://github.com/xiaomdong/go-fil-markets/pull/121))
+  - Import spec actor types (#118) ([filecoin-project/go-fil-markets#118](https://github.com/xiaomdong/go-fil-markets/pull/118))
+  - Update README (#120) ([filecoin-project/go-fil-markets#120](https://github.com/xiaomdong/go-fil-markets/pull/120))
   - chore(cborgen): update cborgen
   - Merge branch 'head/lotus' into lotus/merge-02-10-2020
-  - Storage Market integration test (#119) ([filecoin-project/go-fil-markets#119](https://github.com/filecoin-project/go-fil-markets/pull/119))
-  - fix(storagemarket): add back in cid recording (#115) ([filecoin-project/go-fil-markets#115](https://github.com/filecoin-project/go-fil-markets/pull/115))
-  - fix(storagemarket): assign net member (#114) ([filecoin-project/go-fil-markets#114](https://github.com/filecoin-project/go-fil-markets/pull/114))
-  - Fix/flaky tests (#113) ([filecoin-project/go-fil-markets#113](https://github.com/filecoin-project/go-fil-markets/pull/113))
-  - Storage market network abstraction (#109) ([filecoin-project/go-fil-markets#109](https://github.com/filecoin-project/go-fil-markets/pull/109))
-  - Remove Sector ID from MinerDeal (merge from head/lotus -- PLEASE USE MERGE COMMIT) ([filecoin-project/go-fil-markets#112](https://github.com/filecoin-project/go-fil-markets/pull/112))
-  - No Filestore On Storage Client (#107) ([filecoin-project/go-fil-markets#107](https://github.com/filecoin-project/go-fil-markets/pull/107))
-  - take miner address as parameter (#108) ([filecoin-project/go-fil-markets#108](https://github.com/filecoin-project/go-fil-markets/pull/108))
-  - skip flaky 1 block tests (#104) ([filecoin-project/go-fil-markets#104](https://github.com/filecoin-project/go-fil-markets/pull/104))
-  - use go-padreader instead of local copy (#103) ([filecoin-project/go-fil-markets#103](https://github.com/filecoin-project/go-fil-markets/pull/103))
-  - Handle sector id in the `OnDealSectorCommitted` callback (#58) ([filecoin-project/go-fil-markets#58](https://github.com/filecoin-project/go-fil-markets/pull/58))
-  - Properly Implement Retrieval Lookups Based on CIDs (#57) ([filecoin-project/go-fil-markets#57](https://github.com/filecoin-project/go-fil-markets/pull/57))
-  - Add Stop funcs to retrieval providers (#56) ([filecoin-project/go-fil-markets#56](https://github.com/filecoin-project/go-fil-markets/pull/56))
-  - refactor(retrievalmarket): switch to payload CIDs (#55) ([filecoin-project/go-fil-markets#55](https://github.com/filecoin-project/go-fil-markets/pull/55))
-  - Move to an explicit piecestore and explicit unsealing. (#54) ([filecoin-project/go-fil-markets#54](https://github.com/filecoin-project/go-fil-markets/pull/54))
-  - Improve test coverage, fix any bugs (#53) ([filecoin-project/go-fil-markets#53](https://github.com/filecoin-project/go-fil-markets/pull/53))
-  - Techdebt/1 block file retrieval test (#51) ([filecoin-project/go-fil-markets#51](https://github.com/filecoin-project/go-fil-markets/pull/51))
-  - ci(config): use large resource_class (#52) ([filecoin-project/go-fil-markets#52](https://github.com/filecoin-project/go-fil-markets/pull/52))
-  - Sync up DealState to match spec (#50) ([filecoin-project/go-fil-markets#50](https://github.com/filecoin-project/go-fil-markets/pull/50))
-  - Support arbitrary dag retrieval (#46) ([filecoin-project/go-fil-markets#46](https://github.com/filecoin-project/go-fil-markets/pull/46))
-  - RetrievalMarket: Query + Deal integration test, + bug fixes uncovered during writing the test (#36) ([filecoin-project/go-fil-markets#36](https://github.com/filecoin-project/go-fil-markets/pull/36))
-  - Remove filestore as a go between with StorageMiner, pass direct io.reader to StorageMiner (#49) ([filecoin-project/go-fil-markets#49](https://github.com/filecoin-project/go-fil-markets/pull/49))
-  - Feat/find providers (#43) ([filecoin-project/go-fil-markets#43](https://github.com/filecoin-project/go-fil-markets/pull/43))
-  - Retrieval Deals, Spec V0 (#37) ([filecoin-project/go-fil-markets#37](https://github.com/filecoin-project/go-fil-markets/pull/37))
-  - Lotus updates ([filecoin-project/go-fil-markets#45](https://github.com/filecoin-project/go-fil-markets/pull/45))
-  - storagemarket: close channel on return (#42) ([filecoin-project/go-fil-markets#42](https://github.com/filecoin-project/go-fil-markets/pull/42))
-  - Feat/verify data before publishing deal (#40) ([filecoin-project/go-fil-markets#40](https://github.com/filecoin-project/go-fil-markets/pull/40))
-  - Use CAR and padding for piece data (#27) ([filecoin-project/go-fil-markets#27](https://github.com/filecoin-project/go-fil-markets/pull/27))
-  - Upgrade Query Protocol to Spec V0 (#25) ([filecoin-project/go-fil-markets#25](https://github.com/filecoin-project/go-fil-markets/pull/25))
+  - Storage Market integration test (#119) ([filecoin-project/go-fil-markets#119](https://github.com/xiaomdong/go-fil-markets/pull/119))
+  - fix(storagemarket): add back in cid recording (#115) ([filecoin-project/go-fil-markets#115](https://github.com/xiaomdong/go-fil-markets/pull/115))
+  - fix(storagemarket): assign net member (#114) ([filecoin-project/go-fil-markets#114](https://github.com/xiaomdong/go-fil-markets/pull/114))
+  - Fix/flaky tests (#113) ([filecoin-project/go-fil-markets#113](https://github.com/xiaomdong/go-fil-markets/pull/113))
+  - Storage market network abstraction (#109) ([filecoin-project/go-fil-markets#109](https://github.com/xiaomdong/go-fil-markets/pull/109))
+  - Remove Sector ID from MinerDeal (merge from head/lotus -- PLEASE USE MERGE COMMIT) ([filecoin-project/go-fil-markets#112](https://github.com/xiaomdong/go-fil-markets/pull/112))
+  - No Filestore On Storage Client (#107) ([filecoin-project/go-fil-markets#107](https://github.com/xiaomdong/go-fil-markets/pull/107))
+  - take miner address as parameter (#108) ([filecoin-project/go-fil-markets#108](https://github.com/xiaomdong/go-fil-markets/pull/108))
+  - skip flaky 1 block tests (#104) ([filecoin-project/go-fil-markets#104](https://github.com/xiaomdong/go-fil-markets/pull/104))
+  - use go-padreader instead of local copy (#103) ([filecoin-project/go-fil-markets#103](https://github.com/xiaomdong/go-fil-markets/pull/103))
+  - Handle sector id in the `OnDealSectorCommitted` callback (#58) ([filecoin-project/go-fil-markets#58](https://github.com/xiaomdong/go-fil-markets/pull/58))
+  - Properly Implement Retrieval Lookups Based on CIDs (#57) ([filecoin-project/go-fil-markets#57](https://github.com/xiaomdong/go-fil-markets/pull/57))
+  - Add Stop funcs to retrieval providers (#56) ([filecoin-project/go-fil-markets#56](https://github.com/xiaomdong/go-fil-markets/pull/56))
+  - refactor(retrievalmarket): switch to payload CIDs (#55) ([filecoin-project/go-fil-markets#55](https://github.com/xiaomdong/go-fil-markets/pull/55))
+  - Move to an explicit piecestore and explicit unsealing. (#54) ([filecoin-project/go-fil-markets#54](https://github.com/xiaomdong/go-fil-markets/pull/54))
+  - Improve test coverage, fix any bugs (#53) ([filecoin-project/go-fil-markets#53](https://github.com/xiaomdong/go-fil-markets/pull/53))
+  - Techdebt/1 block file retrieval test (#51) ([filecoin-project/go-fil-markets#51](https://github.com/xiaomdong/go-fil-markets/pull/51))
+  - ci(config): use large resource_class (#52) ([filecoin-project/go-fil-markets#52](https://github.com/xiaomdong/go-fil-markets/pull/52))
+  - Sync up DealState to match spec (#50) ([filecoin-project/go-fil-markets#50](https://github.com/xiaomdong/go-fil-markets/pull/50))
+  - Support arbitrary dag retrieval (#46) ([filecoin-project/go-fil-markets#46](https://github.com/xiaomdong/go-fil-markets/pull/46))
+  - RetrievalMarket: Query + Deal integration test, + bug fixes uncovered during writing the test (#36) ([filecoin-project/go-fil-markets#36](https://github.com/xiaomdong/go-fil-markets/pull/36))
+  - Remove filestore as a go between with StorageMiner, pass direct io.reader to StorageMiner (#49) ([filecoin-project/go-fil-markets#49](https://github.com/xiaomdong/go-fil-markets/pull/49))
+  - Feat/find providers (#43) ([filecoin-project/go-fil-markets#43](https://github.com/xiaomdong/go-fil-markets/pull/43))
+  - Retrieval Deals, Spec V0 (#37) ([filecoin-project/go-fil-markets#37](https://github.com/xiaomdong/go-fil-markets/pull/37))
+  - Lotus updates ([filecoin-project/go-fil-markets#45](https://github.com/xiaomdong/go-fil-markets/pull/45))
+  - storagemarket: close channel on return (#42) ([filecoin-project/go-fil-markets#42](https://github.com/xiaomdong/go-fil-markets/pull/42))
+  - Feat/verify data before publishing deal (#40) ([filecoin-project/go-fil-markets#40](https://github.com/xiaomdong/go-fil-markets/pull/40))
+  - Use CAR and padding for piece data (#27) ([filecoin-project/go-fil-markets#27](https://github.com/xiaomdong/go-fil-markets/pull/27))
+  - Upgrade Query Protocol to Spec V0 (#25) ([filecoin-project/go-fil-markets#25](https://github.com/xiaomdong/go-fil-markets/pull/25))
   - Merge branch 'lotus-updates'
-  - fix(retrievalmarket): add mutex around subscribers (#32) (#33) ([filecoin-project/go-fil-markets#33](https://github.com/filecoin-project/go-fil-markets/pull/33))
-  - ci(codecov): disable status, display report (#31) ([filecoin-project/go-fil-markets#31](https://github.com/filecoin-project/go-fil-markets/pull/31))
-  - Flaky test fix (#28) ([filecoin-project/go-fil-markets#28](https://github.com/filecoin-project/go-fil-markets/pull/28))
-  - skip flaky test (#30) ([filecoin-project/go-fil-markets#30](https://github.com/filecoin-project/go-fil-markets/pull/30))
-  - Network Abstraction For Retrieval Market (#17) ([filecoin-project/go-fil-markets#17](https://github.com/filecoin-project/go-fil-markets/pull/17))
-  - Use CAR file in generation of CommP (#26) ([filecoin-project/go-fil-markets#26](https://github.com/filecoin-project/go-fil-markets/pull/26))
-  - filestore: track close err, lints (#20) ([filecoin-project/go-fil-markets#20](https://github.com/filecoin-project/go-fil-markets/pull/20))
-  - Deleting datatransfer files (#19) ([filecoin-project/go-fil-markets#19](https://github.com/filecoin-project/go-fil-markets/pull/19))
-  - Use shared go-filecoin packages go-cbor-util, go-address, go-crypto, (#22) ([filecoin-project/go-fil-markets#22](https://github.com/filecoin-project/go-fil-markets/pull/22))
-  - Storage Market Extraction (#15) ([filecoin-project/go-fil-markets#15](https://github.com/filecoin-project/go-fil-markets/pull/15))
-  - Retrieval Market Extraction (#13) ([filecoin-project/go-fil-markets#13](https://github.com/filecoin-project/go-fil-markets/pull/13))
-  - PieceIO improvements (#12) ([filecoin-project/go-fil-markets#12](https://github.com/filecoin-project/go-fil-markets/pull/12))
-  - fix links in datatransfer README (#11) ([filecoin-project/go-fil-markets#11](https://github.com/filecoin-project/go-fil-markets/pull/11))
-  - fix(build): fix tools build error (#14) ([filecoin-project/go-fil-markets#14](https://github.com/filecoin-project/go-fil-markets/pull/14))
-  - fix(tokenamount): fix naming (#10) ([filecoin-project/go-fil-markets#10](https://github.com/filecoin-project/go-fil-markets/pull/10))
-  - feat(shared): add shared tools and types (#9) ([filecoin-project/go-fil-markets#9](https://github.com/filecoin-project/go-fil-markets/pull/9))
-  - add circle config, let's ci ([filecoin-project/go-fil-markets#7](https://github.com/filecoin-project/go-fil-markets/pull/7))
-  - Skeleton readme ([filecoin-project/go-fil-markets#5](https://github.com/filecoin-project/go-fil-markets/pull/5))
+  - fix(retrievalmarket): add mutex around subscribers (#32) (#33) ([filecoin-project/go-fil-markets#33](https://github.com/xiaomdong/go-fil-markets/pull/33))
+  - ci(codecov): disable status, display report (#31) ([filecoin-project/go-fil-markets#31](https://github.com/xiaomdong/go-fil-markets/pull/31))
+  - Flaky test fix (#28) ([filecoin-project/go-fil-markets#28](https://github.com/xiaomdong/go-fil-markets/pull/28))
+  - skip flaky test (#30) ([filecoin-project/go-fil-markets#30](https://github.com/xiaomdong/go-fil-markets/pull/30))
+  - Network Abstraction For Retrieval Market (#17) ([filecoin-project/go-fil-markets#17](https://github.com/xiaomdong/go-fil-markets/pull/17))
+  - Use CAR file in generation of CommP (#26) ([filecoin-project/go-fil-markets#26](https://github.com/xiaomdong/go-fil-markets/pull/26))
+  - filestore: track close err, lints (#20) ([filecoin-project/go-fil-markets#20](https://github.com/xiaomdong/go-fil-markets/pull/20))
+  - Deleting datatransfer files (#19) ([filecoin-project/go-fil-markets#19](https://github.com/xiaomdong/go-fil-markets/pull/19))
+  - Use shared go-filecoin packages go-cbor-util, go-address, go-crypto, (#22) ([filecoin-project/go-fil-markets#22](https://github.com/xiaomdong/go-fil-markets/pull/22))
+  - Storage Market Extraction (#15) ([filecoin-project/go-fil-markets#15](https://github.com/xiaomdong/go-fil-markets/pull/15))
+  - Retrieval Market Extraction (#13) ([filecoin-project/go-fil-markets#13](https://github.com/xiaomdong/go-fil-markets/pull/13))
+  - PieceIO improvements (#12) ([filecoin-project/go-fil-markets#12](https://github.com/xiaomdong/go-fil-markets/pull/12))
+  - fix links in datatransfer README (#11) ([filecoin-project/go-fil-markets#11](https://github.com/xiaomdong/go-fil-markets/pull/11))
+  - fix(build): fix tools build error (#14) ([filecoin-project/go-fil-markets#14](https://github.com/xiaomdong/go-fil-markets/pull/14))
+  - fix(tokenamount): fix naming (#10) ([filecoin-project/go-fil-markets#10](https://github.com/xiaomdong/go-fil-markets/pull/10))
+  - feat(shared): add shared tools and types (#9) ([filecoin-project/go-fil-markets#9](https://github.com/xiaomdong/go-fil-markets/pull/9))
+  - add circle config, let's ci ([filecoin-project/go-fil-markets#7](https://github.com/xiaomdong/go-fil-markets/pull/7))
+  - Skeleton readme ([filecoin-project/go-fil-markets#5](https://github.com/xiaomdong/go-fil-markets/pull/5))
   - Feat/datatransfer readme, contributing, design doc (rename)
-  - Piece IO ([filecoin-project/go-fil-markets#2](https://github.com/filecoin-project/go-fil-markets/pull/2))
-  - Feat/datatransfer graphsync movein ([filecoin-project/go-fil-markets#1](https://github.com/filecoin-project/go-fil-markets/pull/1))
+  - Piece IO ([filecoin-project/go-fil-markets#2](https://github.com/xiaomdong/go-fil-markets/pull/2))
+  - Feat/datatransfer graphsync movein ([filecoin-project/go-fil-markets#1](https://github.com/xiaomdong/go-fil-markets/pull/1))
 
 ### Contributors
 
@@ -1762,5 +1762,5 @@ Initial tagged release for Filecoin Testnet Phase 2
 
 Would you like to contribute to this repo and don’t know how? Here are a few places you can get started:
 
-- Check out the [Contributing Guidelines](https://github.com/filecoin-project/go-fil-markets/blob/master/CONTRIBUTING.md)
-- Look for issues with the `good-first-issue` label in [go-fil-markets](https://github.com/filecoin-project/go-fil-markets/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22e-good-first-issue%22+)
+- Check out the [Contributing Guidelines](https://github.com/xiaomdong/go-fil-markets/blob/master/CONTRIBUTING.md)
+- Look for issues with the `good-first-issue` label in [go-fil-markets](https://github.com/xiaomdong/go-fil-markets/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22e-good-first-issue%22+)

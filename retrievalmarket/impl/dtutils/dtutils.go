@@ -15,8 +15,8 @@ import (
 	datatransfer "github.com/filecoin-project/go-data-transfer"
 	"github.com/filecoin-project/go-statemachine/fsm"
 
-	rm "github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/migrations"
+	rm "github.com/xiaomdong/go-fil-markets/retrievalmarket"
+	"github.com/xiaomdong/go-fil-markets/retrievalmarket/migrations"
 )
 
 var log = logging.Logger("retrievalmarket_impl")

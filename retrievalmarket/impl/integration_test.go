@@ -32,14 +32,14 @@ import (
 	"github.com/filecoin-project/go-state-types/big"
 	"github.com/filecoin-project/go-state-types/builtin/v8/paych"
 
-	"github.com/filecoin-project/go-fil-markets/piecestore"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket"
-	retrievalimpl "github.com/filecoin-project/go-fil-markets/retrievalmarket/impl"
-	"github.com/filecoin-project/go-fil-markets/retrievalmarket/impl/testnodes"
-	rmnet "github.com/filecoin-project/go-fil-markets/retrievalmarket/network"
-	rmtesting "github.com/filecoin-project/go-fil-markets/retrievalmarket/testing"
-	tut "github.com/filecoin-project/go-fil-markets/shared_testutil"
-	"github.com/filecoin-project/go-fil-markets/stores"
+	"github.com/xiaomdong/go-fil-markets/piecestore"
+	"github.com/xiaomdong/go-fil-markets/retrievalmarket"
+	retrievalimpl "github.com/xiaomdong/go-fil-markets/retrievalmarket/impl"
+	"github.com/xiaomdong/go-fil-markets/retrievalmarket/impl/testnodes"
+	rmnet "github.com/xiaomdong/go-fil-markets/retrievalmarket/network"
+	rmtesting "github.com/xiaomdong/go-fil-markets/retrievalmarket/testing"
+	tut "github.com/xiaomdong/go-fil-markets/shared_testutil"
+	"github.com/xiaomdong/go-fil-markets/stores"
 )
 
 func TestClientCanMakeQueryToProvider(t *testing.T) {
@@ -593,7 +593,7 @@ CurrentInterval: %d
 			}
 			// TODO this is terrible, but it's temporary until the test harness refactor
 			// in the resuming retrieval deals branch is done
-			// https://github.com/filecoin-project/go-fil-markets/issues/65
+			// https://github.com/xiaomdong/go-fil-markets/issues/65
 			if testCase.decider != nil {
 				assert.True(t, customDeciderRan)
 			}
